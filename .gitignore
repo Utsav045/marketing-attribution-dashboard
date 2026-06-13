@@ -18,9 +18,7 @@ logs/
 # VS Code
 .vscode/
 
-# Data Files
-data/raw/*
-data/processed/*
+
 
 # OS Files
 .DS_Store
