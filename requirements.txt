@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+plotly
+sqlalchemy
+psycopg2-binary
+python-dotenv
+pytest
+black
+ruff

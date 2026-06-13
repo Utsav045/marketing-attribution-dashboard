@@ -1,12 +1,27 @@
-@"
+# Virtual Environment
+.venv/
+
+# Python
 __pycache__/
 *.pyc
-.venv/
-venv/
+
+# Environment Variables
 .env
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
 .vscode/
-.idea/
-*.csv
-*.xlsx
-*.pbix
-"@ | Set-Content .gitignore
+
+# Data Files
+data/raw/*
+data/processed/*
+
+# OS Files
+.DS_Store
+Thumbs.db
