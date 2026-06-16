@@ -70,3 +70,32 @@
 - Complete project setup and dependency installation.
 - Re-add previous documentation changes if required.
 - Follow the Git workflow provided in the project PDF.
+
+
+# Meeting Notes
+
+## Date: 16 June 2026
+
+### Discussion Points
+
+* Team discussed the upcoming mid-review.
+* Team members discussed starting the development work.
+* The finalized project structure was shared by the Team Lead.
+* The complete folder structure, modules, and development workflow were explained.
+* Team members were instructed to follow the development order strictly.
+* Documentation work was reviewed before starting development.
+* Team members were encouraged to contribute to Python development and seek clarification if required.
+
+### Decisions Taken
+
+* The finalized project structure will be followed for development.
+* Documentation should be completed and updated regularly.
+* Development work can begin according to the assigned modules.
+* Team members should review the project structure before coding.
+
+### Action Items
+
+* Update project documentation.
+* Review the project structure and development order.
+* Begin assigned development tasks.
+* Coordinate with the Team Lead for module assignments.
