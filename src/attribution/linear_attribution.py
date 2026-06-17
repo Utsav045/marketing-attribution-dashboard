@@ -47,7 +47,7 @@ def linear_attribution():
 
     # Save results
     result_df.to_csv(
-        "data/processed/linear_attribution_results.csv",
+        "data/processed/linear attribution results.csv",
         index=False
     )
 
@@ -55,7 +55,7 @@ def linear_attribution():
     print(result_df.head())
 
     print(
-        "\nSaved to: data/processed/linear_attribution_results.csv"
+        "\nSaved to: data/processed/linear attribution results.csv"
     )
 
 
