@@ -1,54 +1,54 @@
 import pandas as pd
 
-# Load datasets
-Addspend_df = pd.read_csv("data/raw/Add Spend Dataset.csv")
-interaction_df = pd.read_csv("data/raw/Customer Interaction Dataset.csv")
-revenue_df = pd.read_csv("data/raw/Revenue Dataset.csv")
 
-# Remove duplicates
-Addspend_df = Addspend_df.drop_duplicates()
-interaction_df = interaction_df.drop_duplicates()
-revenue_df = revenue_df.drop_duplicates()
+def clean_data(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    df = df.drop_duplicates()
 
+    currency_columns = [col for col in df.columns if col in {'Spend', 'Revenue'}]
+    for col in currency_columns:
+        df[col] = (
+            df[col]
+            .astype(str)
+            .replace(r'[\$,]', '', regex=True)
+            .replace('nan', '')
+        )
+        df[col] = pd.to_numeric(df[col], errors='coerce')
 
-# Remove $ sign Add Spend Dataset
-Addspend_df["Spend"] = Addspend_df["Spend"].replace(r"[\$,]", "", regex=True)
-
-# Convert Spend to numeric
-Addspend_df["Spend"] = pd.to_numeric(Addspend_df["Spend"])
-
-# Remove $ sign Revenue Dataset
-revenue_df["Revenue"] = revenue_df["Revenue"].replace(r"[\$,]", "", regex=True)
-
-# Convert Revenue to numeric
-revenue_df["Revenue"] = pd.to_numeric(revenue_df["Revenue"])
+    return df
 
 
+def run_data_cleaning() -> None:
+    Addspend_df = pd.read_csv('data/raw/Add_Spend_Dataset.csv')
+    interaction_df = pd.read_csv('data/raw/Customer_Interaction_dataset.csv')
+    revenue_df = pd.read_csv('data/raw/Revenue_dataset.csv')
 
-# Display dataset information
-print("\n Add Spend Dataset")
-print(Addspend_df.info())
+    Addspend_df = clean_data(Addspend_df)
+    interaction_df = clean_data(interaction_df)
+    revenue_df = clean_data(revenue_df)
 
-print("\nCustomer Interaction Dataset")
-print(interaction_df.info())
+    print("\n Add Spend Dataset")
+    print(Addspend_df.info())
+    print("\nCustomer Interaction Dataset")
+    print(interaction_df.info())
+    print("\nRevenue Dataset")
+    print(revenue_df.info())
 
-print("\nRevenue Dataset")
-print(revenue_df.info())
+    Addspend_df.to_csv(
+        'data/processed/cleaned_Add_Spend_Dataset.csv',
+        index=False
+    )
+    interaction_df.to_csv(
+        'data/processed/cleaned_Customer_Interaction_Dataset.csv',
+        index=False
+    )
+    revenue_df.to_csv(
+        'data/processed/cleaned_Revenue_Dataset.csv',
+        index=False
+    )
 
-# Save cleaned datasets
-Addspend_df.to_csv(
-    "data/processed/cleaned Add Spend Dataset.csv",
-    index=False
-)
+    print("\nData Cleaning Completed Successfully!")
 
-interaction_df.to_csv(
-    "data/processed/cleaned Customer Interaction Dataset.csv",
-    index=False
-)
 
-revenue_df.to_csv(
-    "data/processed/cleaned Revenue Dataset.csv",
-    index=False
-)
-
-print("\nData Cleaning Completed Successfully!")
+if __name__ == '__main__':
+    run_data_cleaning()
