@@ -8,9 +8,9 @@ def load_data():
     raw_dir = root / "data" / "raw"
 
     datasets = {
-        "add_spend": "Add Spend Dataset.csv",
-        "customer_interaction": "Customer Interaction Dataset.csv",
-        "revenue": "Revenue Dataset.csv",
+        "add_spend": "Add_Spend_Dataset.csv",
+        "customer_interaction": "Customer_Interaction_dataset.csv",
+        "revenue": "Revenue_dataset.csv",
     }
 
     return {name: pd.read_csv(raw_dir / filename) for name, filename in datasets.items()}

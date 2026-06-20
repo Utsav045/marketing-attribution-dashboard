@@ -4,11 +4,11 @@ import pandas as pd
 def build_customer_journeys():
 
     interaction_df = pd.read_csv(
-        "data/processed/cleaned Customer Interaction Dataset.csv"
+        "data/processed/cleaned_Customer_Interaction_Dataset.csv"
     )
 
     revenue_df = pd.read_csv(
-        "data/processed/cleaned Revenue Dataset.csv"
+        "data/processed/cleaned_Revenue_Dataset.csv"
     )
 
     interaction_df["Interaction_date"] = pd.to_datetime(
