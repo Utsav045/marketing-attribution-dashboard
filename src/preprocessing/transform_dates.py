@@ -27,24 +27,24 @@ def transform_dates(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def run_transform_dates() -> None:
-    interaction_df = pd.read_csv('data/processed/cleaned_Customer_Interaction_Dataset.csv')
-    Addspend_df = pd.read_csv('data/processed/cleaned_Add_Spend_Dataset.csv')
-    revenue_df = pd.read_csv('data/processed/cleaned_Revenue_Dataset.csv')
+    interaction_df = pd.read_csv('data/processed/cleaned_customer_interaction_dataset.csv')
+    Addspend_df = pd.read_csv('data/processed/cleaned_add_spend_dataset.csv')
+    revenue_df = pd.read_csv('data/processed/cleaned_revenue_dataset.csv')
 
     interaction_df = transform_dates(interaction_df)
     Addspend_df = transform_dates(Addspend_df)
     revenue_df = transform_dates(revenue_df)
 
     interaction_df.to_csv(
-        'data/processed/cleaned_Customer_Interaction_Dataset.csv',
+        'data/processed/cleaned_customer_interaction_dataset.csv',
         index=False
     )
     Addspend_df.to_csv(
-        'data/processed/cleaned_Add_Spend_Dataset.csv',
+        'data/processed/cleaned_add_spend_dataset.csv',
         index=False
     )
     revenue_df.to_csv(
-        'data/processed/cleaned_Revenue_Dataset.csv',
+        'data/processed/cleaned_revenue_dataset.csv',
         index=False
     )
 

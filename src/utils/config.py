@@ -15,9 +15,9 @@ REPORTS_DIR = PROJECT_ROOT / "reports"
 DASHBOARD_DIR = PROJECT_ROOT / "dashboards"
 
 # Dataset Files
-AD_SPEND_FILE = RAW_DATA_DIR / "Add_Spend_Dataset.csv"
-INTERACTION_FILE = RAW_DATA_DIR / "Customer_Interaction_Dataset.csv"
-REVENUE_FILE = RAW_DATA_DIR / "Revenue_dataset.csv"
+AD_SPEND_FILE = RAW_DATA_DIR / "add_spend_dataset.csv"
+INTERACTION_FILE = RAW_DATA_DIR / "customer_interaction_dataset.csv"
+REVENUE_FILE = RAW_DATA_DIR / "revenue_dataset.csv"
 
 # Processed Files
 FEATURED_DATASET = PROCESSED_DATA_DIR / "featured_dataset.csv"
