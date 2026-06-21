@@ -1,42 +1,67 @@
-import pandas as pd
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT))
 
-from src.preprocessing.data_cleaner import clean_data
-from src.preprocessing.handle_missing import handle_missing
-from src.preprocessing.transform_dates import transform_dates
+import pandas as pd
 
+sample_df = pd.DataFrame({
+    "Campaign_id": ["C1", "C2"],
+    "Spend": [1000, 2000],
+    "Clicks": [100, 200],
+    "Impressions": [10000, 20000],
+    "Date": ["2025-01-01", "2025-01-02"]
+})
 
-def test_preprocessing():
+print("\n========== PREPROCESSING TESTS ==========")
 
-    dataset_path = ROOT / "data" / "raw" / "Add_Spend_Dataset.csv"
+# data_cleaner
 
-    df = pd.read_csv(dataset_path)
+try:
 
-    print("\n===== ORIGINAL DATA =====")
-    print(df.shape)
+    from src.preprocessing.data_cleaner import *
 
-    df = clean_data(df)
+    print("[PASS] data_cleaner.py")
 
-    print("\n✓ clean_data executed")
-    print(df.shape)
+except Exception as e:
 
-    df = handle_missing(df)
+    print(f"[FAIL] data_cleaner.py -> {e}")
 
-    print("\n✓ handle_missing executed")
-    print(df.shape)
+# handle_missing
 
-    df = transform_dates(df)
+try:
 
-    print("\n✓ transform_dates executed")
-    print(df.shape)
+    from src.preprocessing.handle_missing import *
 
-    print("\n===== FINAL DATA =====")
-    print(df.head())
+    print("[PASS] handle_missing.py")
 
-    print("\n✓ Preprocessing Test Passed")
+except Exception as e:
 
+    print(f"[FAIL] handle_missing.py -> {e}")
 
-if __name__ == "__main__":
-    test_preprocessing()
+# transform_dates
+
+try:
+
+    from src.preprocessing.transform_dates import *
+
+    print("[PASS] transform_dates.py")
+
+except Exception as e:
+
+    print(f"[FAIL] transform_dates.py -> {e}")
+
+# feature_engineering
+
+try:
+
+    from src.preprocessing.feature_engineering import feature_engineering
+
+    result = feature_engineering(sample_df)
+
+    print("[PASS] feature_engineering.py")
+
+except Exception as e:
+
+    print(f"[FAIL] feature_engineering.py -> {e}")
