@@ -20,7 +20,9 @@ logs/
 
 # Data Files
 data/raw/*
+!data/raw/*.csv
 data/processed/*
+!data/processed/*.csv
 
 # OS Files
 .DS_Store

@@ -99,3 +99,60 @@
 * Review the project structure and development order.
 * Begin assigned development tasks.
 * Coordinate with the Team Lead for module assignments.
+
+
+Meeting Notes
+
+Date: 20 June 2026
+
+Discussion Points
+
+* Repository updates and overall project progress were reviewed.
+* Team members were instructed to synchronize their local repositories with the latest remote updates.
+* Documentation status and pending documentation tasks were discussed.
+* SQL database development progress was reviewed.
+* Python preprocessing and attribution module development progress were discussed.
+* Upcoming tasks including KPI calculation, feature engineering, exploratory data analysis (EDA), and dashboard preparation were reviewed.
+* Team coordination, task allocation, and project tracking were discussed.
+
+Decisions Taken
+
+* Team members should regularly pull the latest repository updates before starting development work.
+* Documentation must be updated alongside development activities.
+* SQL and Python development should continue according to the project roadmap.
+* Attribution models and KPI development will be prioritized in upcoming tasks.
+
+Action Items
+
+* Pull the latest repository changes.
+* Continue assigned development tasks.
+* Keep project documentation updated.
+* Proceed with SQL database development.
+* Continue Python module implementation and testing.
+* Prepare for KPI calculations and dashboard development.
+
+
+Date: 21 June 2026
+
+Discussion Points
+
+* Team members reviewed project progress.
+* Database implementation activities were discussed.
+* PostgreSQL setup and schema creation progress was reviewed.
+* Documentation updates were requested before the end of the work session.
+* Team members were instructed to synchronize with the latest repository updates.
+
+Decisions Taken
+
+* Documentation must be updated regularly.
+* Database schema implementation should continue according to project requirements.
+* Team members should keep local branches synchronized with the latest project changes.
+* SQL attribution and KPI development will continue in upcoming tasks.
+
+Action Items
+
+* Update Python Implementation documentation.
+* Update Meeting Notes documentation.
+* Push documentation changes to personal branch.
+* Synchronize with main-clone branch updates.
+* Continue SQL development activities.

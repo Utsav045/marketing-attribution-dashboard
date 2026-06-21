@@ -19,9 +19,9 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def run_data_cleaning() -> None:
-    Addspend_df = pd.read_csv('data/raw/Add_Spend_Dataset.csv')
-    interaction_df = pd.read_csv('data/raw/Customer_Interaction_dataset.csv')
-    revenue_df = pd.read_csv('data/raw/Revenue_dataset.csv')
+    Addspend_df = pd.read_csv('data/raw/add_spend_dataset.csv')
+    interaction_df = pd.read_csv('data/raw/customer_interaction_dataset.csv')
+    revenue_df = pd.read_csv('data/raw/revenue_dataset.csv')
 
     Addspend_df = clean_data(Addspend_df)
     interaction_df = clean_data(interaction_df)
@@ -35,15 +35,15 @@ def run_data_cleaning() -> None:
     print(revenue_df.info())
 
     Addspend_df.to_csv(
-        'data/processed/cleaned_Add_Spend_Dataset.csv',
+        'data/processed/cleaned_add_spend_dataset.csv',
         index=False
     )
     interaction_df.to_csv(
-        'data/processed/cleaned_Customer_Interaction_Dataset.csv',
+        'data/processed/cleaned_customer_interaction_dataset.csv',
         index=False
     )
     revenue_df.to_csv(
-        'data/processed/cleaned_Revenue_Dataset.csv',
+        'data/processed/cleaned_revenue_dataset.csv',
         index=False
     )
 
