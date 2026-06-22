@@ -1,19 +1,12 @@
-import sys
-from pathlib import Path
+from src.ingestion.load_data import load_data
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.append(str(ROOT))
 
-print("\n========== INGESTION TESTS ==========")
-
-try:
-
-    from src.ingestion.load_data import load_data
-
+def test_load_data_returns_expected_dataset_keys():
     datasets = load_data()
 
-    print("[PASS] load_data.py")
-
-except Exception as e:
-
-    print(f"[FAIL] load_data.py -> {e}")
+    assert "add_spend" in datasets
+    assert "customer_interaction" in datasets
+    assert "revenue" in datasets
+    assert not datasets["add_spend"].empty
+    assert not datasets["customer_interaction"].empty
+    assert not datasets["revenue"].empty
