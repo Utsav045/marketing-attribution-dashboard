@@ -101,11 +101,11 @@
 * Coordinate with the Team Lead for module assignments.
 
 
-Meeting Notes
+### Meeting Notes
 
-Date: 20 June 2026
+**Date**: 20 June 2026
 
-Discussion Points
+### Discussion Points
 
 * Repository updates and overall project progress were reviewed.
 * Team members were instructed to synchronize their local repositories with the latest remote updates.
@@ -115,14 +115,14 @@ Discussion Points
 * Upcoming tasks including KPI calculation, feature engineering, exploratory data analysis (EDA), and dashboard preparation were reviewed.
 * Team coordination, task allocation, and project tracking were discussed.
 
-Decisions Taken
+### Decisions Taken
 
 * Team members should regularly pull the latest repository updates before starting development work.
 * Documentation must be updated alongside development activities.
 * SQL and Python development should continue according to the project roadmap.
 * Attribution models and KPI development will be prioritized in upcoming tasks.
 
-Action Items
+### Action Items
 
 * Pull the latest repository changes.
 * Continue assigned development tasks.
@@ -132,9 +132,9 @@ Action Items
 * Prepare for KPI calculations and dashboard development.
 
 
-Date: 21 June 2026
+**Date**: 21 June 2026
 
-Discussion Points
+### Discussion Points
 
 * Team members reviewed project progress.
 * Database implementation activities were discussed.
@@ -142,14 +142,14 @@ Discussion Points
 * Documentation updates were requested before the end of the work session.
 * Team members were instructed to synchronize with the latest repository updates.
 
-Decisions Taken
+### Decisions Taken
 
 * Documentation must be updated regularly.
 * Database schema implementation should continue according to project requirements.
 * Team members should keep local branches synchronized with the latest project changes.
 * SQL attribution and KPI development will continue in upcoming tasks.
 
-Action Items
+### Action Items
 
 * Update Python Implementation documentation.
 * Update Meeting Notes documentation.
@@ -157,9 +157,9 @@ Action Items
 * Synchronize with main-clone branch updates.
 * Continue SQL development activities.
 
-Date: 21 June 2026
+**Date**: 22 June 2026
 
-Discussion Points
+### Discussion Points
 
 * Team members reviewed overall project progress.
 * PostgreSQL setup and database implementation activities were discussed.
@@ -170,14 +170,14 @@ Discussion Points
 * Exploratory Data Analysis (EDA) activities and upcoming analytics tasks were reviewed.
 * Dashboard preparation and future integration tasks were discussed.
 
-Decisions Taken
+### Decisions Taken
 
 * Database schema implementation should be completed before data loading.
 * Documentation must be updated alongside development work.
 * Attribution query development and KPI calculations will be prioritized in the next phase.
 * EDA activities should begin after dataset validation and loading.
 
-Action Items
+### Action Items
 
 * Finalize attribution query implementation.
 * Prepare KPI calculation queries.
