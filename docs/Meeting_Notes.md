@@ -156,3 +156,31 @@ Action Items
 * Push documentation changes to personal branch.
 * Synchronize with main-clone branch updates.
 * Continue SQL development activities.
+
+Date: 21 June 2026
+
+Discussion Points
+
+* Team members reviewed overall project progress.
+* PostgreSQL setup and database implementation activities were discussed.
+* Database schema creation and indexing progress were reviewed.
+* Documentation updates and repository synchronization were discussed.
+* Attribution query implementation requirements were reviewed.
+* KPI calculation planning was discussed.
+* Exploratory Data Analysis (EDA) activities and upcoming analytics tasks were reviewed.
+* Dashboard preparation and future integration tasks were discussed.
+
+Decisions Taken
+
+* Database schema implementation should be completed before data loading.
+* Documentation must be updated alongside development work.
+* Attribution query development and KPI calculations will be prioritized in the next phase.
+* EDA activities should begin after dataset validation and loading.
+
+Action Items
+
+* Finalize attribution query implementation.
+* Prepare KPI calculation queries.
+* Begin EDA activities.
+* Continue updating project documentation.
+* Synchronize repositories regularly.

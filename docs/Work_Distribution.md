@@ -32,6 +32,13 @@
 * Testing support and validation
 * Final report and presentation support
 * Assistance in Python development (Data Loading / Data Cleaning modules)
+* PostgreSQL setup and configuration
+* Database schema implementation
+* Table creation (customer_journeys, campaigns, ad_spend_performance, revenue_conversions)
+* Database index creation and optimization support
+* Attribution query implementation support (First Touch, Last Touch, Linear Attribution)
+* KPI query preparation and validation
+* Database structure analysis and documentation
 
 ## Notes
 
