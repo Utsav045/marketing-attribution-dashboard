@@ -8,6 +8,8 @@
 * Architecture design
 * Code review and integration
 * GitHub repository management
+* Pipeline orchestration and Python implementation
+* Ingestion module development and raw data loading
 
 ### Rajarshi
 

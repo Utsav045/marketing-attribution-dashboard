@@ -25,7 +25,7 @@ def first_touch_attribution():
     )
 
     result.to_csv(
-        "data/processed/first touch results.csv",
+        "data/processed/first_touch_results.csv",
         index=False
     )
 
