@@ -2,185 +2,230 @@
 
 ### Discussion Points
 
-* The team decided to use VS Code for Python development.
-* GitHub repository setup was completed and all team members accepted the repository invitation.
-* Team members were instructed to review all project-related documents.
-* Existing documents will be used as references for dataset selection, while new documents will help in dataset understanding.
+* Project introduction and workflow overview were discussed.
+* Team members were briefed about project objectives and deliverables.
+* GitHub repository setup process was explained.
+* Team members were instructed to review all provided project documents.
 
 ### Decisions Taken
 
-* Development activities will begin from the following day.
-* Each team member will work on their assigned branch and regularly push updates to GitHub.
-* The Team Lead will review and test all submitted code.
-* After successful review and testing, approved code will be merged into the main project repository.
+* GitHub repository access must be completed by all team members.
+* Project documents should be reviewed before development begins.
+* Development environment setup will start after repository access is confirmed.
 
 ### Action Items
 
-1. Review all project documents.
-2. Complete GitHub setup and repository access.
-3. Identify and review suitable datasets.
-4. Prepare the development environment for project work.
+1. Accept repository invitation.
+2. Review project documentation.
+3. Install required development tools.
+4. Prepare local development environment.
 
+---
 
 ## Date: 12 June 2026
 
 ### Discussion Points
 
-* The team discussed available datasets for the project.
-* It was suggested that development could begin after selecting a final dataset.
-* The Team Lead recommended starting development using the currently available dataset and updating it later if required.
-* Team members discussed project workflow and task allocation.
+* Available datasets for the project were reviewed.
+* Dataset requirements and project scope were discussed.
+* Team members discussed initial project planning and workflow.
 
 ### Decisions Taken
 
-* Development work will begin using the available dataset.
-* The dataset may be modified or replaced later if a better option is identified.
-* Team members will continue coding and regularly review progress.
-* Dataset-related improvements will be incorporated during later stages of development.
+* Development can begin using the currently available dataset.
+* Dataset improvements may be incorporated later if necessary.
+* Team members should continue evaluating dataset quality.
 
 ### Action Items
 
-1. Begin development using the available dataset.
-2. Continue researching and evaluating datasets.
-3. Push progress updates to individual GitHub branches.
-4. Review project progress in the next team meeting.
+1. Review available datasets.
+2. Begin initial development planning.
+3. Continue dataset evaluation.
+4. Update progress regularly.
 
+---
 
 ## Date: 13 June 2026
 
 ### Discussion Points
 
-1. Project structure and file setup were discussed.
-2. Team Lead updated the repository structure and project files.
-3. Team members were instructed to pull the latest changes from the main branch.
-4. Git workflow and project setup process were explained.
-5. Project dependencies installation and local setup were discussed.
-6. Team members were advised to follow the PDF workflow before and after working on the project.
+* Repository structure and project folders were reviewed.
+* Git workflow and branch management process were explained.
+* Project setup and dependency installation were discussed.
 
 ### Decisions Taken
 
-1. Team members should use the updated project structure.
-2. Previous changes may need to be recommitted after syncing with the latest repository updates.
-3. Development work will continue using the updated repository setup.
-4. Team members should be careful while using Git commands and seek guidance if unsure.
+* Team members must use the latest repository structure.
+* Development should follow the agreed Git workflow.
+* Local project setup should be completed before coding.
 
 ### Action Items
 
-- Sync local repository with the latest main branch changes.
-- Complete project setup and dependency installation.
-- Re-add previous documentation changes if required.
-- Follow the Git workflow provided in the project PDF.
+1. Sync repository changes.
+2. Complete project setup.
+3. Install required dependencies.
+4. Verify repository access and branch configuration.
 
+---
 
-# Meeting Notes
+## Date: 14 June 2026
+
+### Discussion Points
+
+* Project modules and development sequence were reviewed.
+* Documentation requirements were discussed.
+* Team members clarified assigned responsibilities.
+
+### Decisions Taken
+
+* Documentation should be maintained throughout development.
+* Assigned tasks should follow the project roadmap.
+* Team members should coordinate before major updates.
+
+### Action Items
+
+1. Review assigned modules.
+2. Update documentation.
+3. Prepare development plan.
+4. Coordinate task allocation.
+
+---
 
 ## Date: 16 June 2026
 
 ### Discussion Points
 
-* Team discussed the upcoming mid-review.
-* Team members discussed starting the development work.
-* The finalized project structure was shared by the Team Lead.
-* The complete folder structure, modules, and development workflow were explained.
-* Team members were instructed to follow the development order strictly.
-* Documentation work was reviewed before starting development.
-* Team members were encouraged to contribute to Python development and seek clarification if required.
+* Mid-review preparation was discussed.
+* Finalized project structure was shared.
+* Development workflow and coding sequence were reviewed.
 
 ### Decisions Taken
 
-* The finalized project structure will be followed for development.
-* Documentation should be completed and updated regularly.
-* Development work can begin according to the assigned modules.
-* Team members should review the project structure before coding.
+* Development will follow the finalized structure.
+* Documentation updates should continue regularly.
+* Team members may begin assigned implementation work.
 
 ### Action Items
 
-* Update project documentation.
-* Review the project structure and development order.
-* Begin assigned development tasks.
-* Coordinate with the Team Lead for module assignments.
+1. Review project structure.
+2. Update documentation.
+3. Begin assigned development tasks.
+4. Track implementation progress.
 
+---
 
-### Meeting Notes
-
-**Date**: 20 June 2026
+## Date: 18 June 2026
 
 ### Discussion Points
 
-* Repository updates and overall project progress were reviewed.
-* Team members were instructed to synchronize their local repositories with the latest remote updates.
-* Documentation status and pending documentation tasks were discussed.
-* SQL database development progress was reviewed.
-* Python preprocessing and attribution module development progress were discussed.
-* Upcoming tasks including KPI calculation, feature engineering, exploratory data analysis (EDA), and dashboard preparation were reviewed.
-* Team coordination, task allocation, and project tracking were discussed.
+* Documentation progress was reviewed.
+* SQL database planning activities were discussed.
+* Team members discussed upcoming development milestones.
 
 ### Decisions Taken
 
-* Team members should regularly pull the latest repository updates before starting development work.
-* Documentation must be updated alongside development activities.
-* SQL and Python development should continue according to the project roadmap.
-* Attribution models and KPI development will be prioritized in upcoming tasks.
+* Database implementation planning should continue.
+* Documentation and development should progress simultaneously.
+* Progress tracking must be maintained.
 
 ### Action Items
 
-* Pull the latest repository changes.
-* Continue assigned development tasks.
-* Keep project documentation updated.
-* Proceed with SQL database development.
-* Continue Python module implementation and testing.
-* Prepare for KPI calculations and dashboard development.
+1. Continue database planning.
+2. Update documentation files.
+3. Review project milestones.
+4. Prepare implementation tasks.
 
+---
 
-**Date**: 21 June 2026
+## Date: 20 June 2026
 
 ### Discussion Points
 
-* Team members reviewed project progress.
-* Database implementation activities were discussed.
-* PostgreSQL setup and schema creation progress was reviewed.
-* Documentation updates were requested before the end of the work session.
-* Team members were instructed to synchronize with the latest repository updates.
+* Repository updates and project progress were reviewed.
+* SQL database development status was discussed.
+* Python preprocessing and attribution modules were reviewed.
+* Future KPI and dashboard tasks were discussed.
 
 ### Decisions Taken
 
-* Documentation must be updated regularly.
-* Database schema implementation should continue according to project requirements.
-* Team members should keep local branches synchronized with the latest project changes.
-* SQL attribution and KPI development will continue in upcoming tasks.
+* SQL and Python development will continue as planned.
+* Documentation updates remain mandatory.
+* KPI development will be prioritized next.
 
 ### Action Items
 
-* Update Python Implementation documentation.
-* Update Meeting Notes documentation.
-* Push documentation changes to personal branch.
-* Synchronize with main-clone branch updates.
-* Continue SQL development activities.
+1. Pull latest repository updates.
+2. Continue SQL development.
+3. Continue Python module implementation.
+4. Update project documentation.
 
-**Date**: 22 June 2026
+---
+
+## Date: 21 June 2026
 
 ### Discussion Points
 
-* Team members reviewed overall project progress.
-* PostgreSQL setup and database implementation activities were discussed.
-* Database schema creation and indexing progress were reviewed.
-* Documentation updates and repository synchronization were discussed.
-* Attribution query implementation requirements were reviewed.
-* KPI calculation planning was discussed.
-* Exploratory Data Analysis (EDA) activities and upcoming analytics tasks were reviewed.
-* Dashboard preparation and future integration tasks were discussed.
+* Database implementation activities were reviewed.
+* PostgreSQL schema creation progress was discussed.
+* Documentation updates were reviewed.
 
 ### Decisions Taken
 
-* Database schema implementation should be completed before data loading.
-* Documentation must be updated alongside development work.
-* Attribution query development and KPI calculations will be prioritized in the next phase.
-* EDA activities should begin after dataset validation and loading.
+* Database schema implementation should continue.
+* Documentation should remain synchronized with development work.
+* Repository updates should be monitored regularly.
 
 ### Action Items
 
-* Finalize attribution query implementation.
-* Prepare KPI calculation queries.
-* Begin EDA activities.
-* Continue updating project documentation.
-* Synchronize repositories regularly.
+1. Continue schema development.
+2. Update implementation documents.
+3. Synchronize repository changes.
+4. Track database progress.
+
+---
+
+## Date: 22 June 2026
+
+### Discussion Points
+
+* Database implementation progress was reviewed.
+* Attribution query development requirements were discussed.
+* KPI calculation planning was reviewed.
+* Future EDA activities were discussed.
+
+### Decisions Taken
+
+* Attribution queries should be prioritized.
+* KPI calculations will be implemented next.
+* Dataset validation should be completed before EDA.
+
+### Action Items
+
+1. Develop attribution queries.
+2. Prepare KPI calculations.
+3. Validate datasets.
+4. Continue documentation updates.
+
+---
+
+## Date: 23 June 2026
+
+### Discussion Points
+
+* Overall project status and pending tasks were reviewed.
+* Documentation completion status was discussed.
+* SQL development progress and upcoming milestones were reviewed.
+* Mid-review preparation activities were discussed.
+
+### Decisions Taken
+
+* Pending documentation should be finalized.
+* SQL implementation progress should be maintained.
+* Team members should prepare project updates for review.
+
+### Action Items
+
+1. Finalize documentation updates.
+2. Review SQL implementation progress.
+3. Prepare review presentation materials.
+4. Verify repository status and project readiness.
