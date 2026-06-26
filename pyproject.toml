@@ -1,0 +1,28 @@
+[project]
+name = "marketing-attribution-dashboard"
+version = "0.1.0"
+description = "Multi-Touch Marketing Attribution and ROI Dashboard"
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "plotly",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "python-dotenv",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+testpaths = ["tests"]
+addopts = "-q"
