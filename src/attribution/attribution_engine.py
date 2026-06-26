@@ -11,14 +11,14 @@ def build_customer_journeys():
         "data/processed/cleaned_revenue_dataset.csv"
     )
 
-    interaction_df["Interaction_date"] = pd.to_datetime(
-        interaction_df["Interaction_date"],
+    interaction_df["Date"] = pd.to_datetime(
+        interaction_df["Date"],
         dayfirst=True,
         errors="coerce"
     )
 
     interaction_df = interaction_df.sort_values(
-        by=["User_id", "Interaction_date"]
+        by=["User_id", "Date"]
     )
 
     journey_df = (
