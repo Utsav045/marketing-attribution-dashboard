@@ -72,8 +72,6 @@
 - Follow the Git workflow provided in the project PDF.
 
 
-# Meeting Notes
-
 ## Date: 16 June 2026
 
 ### Discussion Points
@@ -101,11 +99,9 @@
 * Coordinate with the Team Lead for module assignments.
 
 
-Meeting Notes
+### **Date**: 20 June 2026
 
-Date: 20 June 2026
-
-Discussion Points
+### Discussion Points
 
 * Repository updates and overall project progress were reviewed.
 * Team members were instructed to synchronize their local repositories with the latest remote updates.
@@ -115,14 +111,14 @@ Discussion Points
 * Upcoming tasks including KPI calculation, feature engineering, exploratory data analysis (EDA), and dashboard preparation were reviewed.
 * Team coordination, task allocation, and project tracking were discussed.
 
-Decisions Taken
+### Decisions Taken
 
 * Team members should regularly pull the latest repository updates before starting development work.
 * Documentation must be updated alongside development activities.
 * SQL and Python development should continue according to the project roadmap.
 * Attribution models and KPI development will be prioritized in upcoming tasks.
 
-Action Items
+### Action Items
 
 * Pull the latest repository changes.
 * Continue assigned development tasks.
@@ -132,9 +128,9 @@ Action Items
 * Prepare for KPI calculations and dashboard development.
 
 
-Date: 21 June 2026
+### **Date**: 21 June 2026
 
-Discussion Points
+### Discussion Points
 
 * Team members reviewed project progress.
 * Database implementation activities were discussed.
@@ -142,17 +138,139 @@ Discussion Points
 * Documentation updates were requested before the end of the work session.
 * Team members were instructed to synchronize with the latest repository updates.
 
-Decisions Taken
+### Decisions Taken
 
 * Documentation must be updated regularly.
 * Database schema implementation should continue according to project requirements.
 * Team members should keep local branches synchronized with the latest project changes.
 * SQL attribution and KPI development will continue in upcoming tasks.
 
-Action Items
+### Action Items
 
 * Update Python Implementation documentation.
 * Update Meeting Notes documentation.
 * Push documentation changes to personal branch.
 * Synchronize with main-clone branch updates.
 * Continue SQL development activities.
+
+## **Date:** 22 June 2026
+
+### Discussion Points
+
+* Team members reviewed the overall project progress.
+* PostgreSQL database schema and indexing progress were discussed.
+* Attribution query implementation requirements were reviewed.
+* KPI calculation planning was discussed.
+* Repository synchronization and documentation updates were reviewed.
+
+### Decisions Taken
+
+* Database schema implementation should be completed before loading the datasets.
+* Attribution query development will be prioritized.
+* Documentation should be updated alongside development work.
+
+### Action Items
+
+1. Finalize database schema implementation.
+2. Prepare attribution SQL queries.
+3. Continue updating project documentation.
+4. Synchronize the local repository with the latest project updates.
+
+---
+
+## **Date:** 23 June 2026
+
+### Discussion Points
+
+* SQL development progress was reviewed.
+* Documentation updates and repository status were discussed.
+* Database validation and upcoming implementation tasks were reviewed.
+* Team members discussed preparation for the mid-review.
+
+### Decisions Taken
+
+* SQL implementation activities should continue according to the project plan.
+* Documentation should reflect the latest project progress.
+* Team members should prepare their individual work updates for the review.
+
+### Action Items
+
+1. Review SQL implementation progress.
+2. Update documentation files.
+3. Verify repository synchronization.
+4. Prepare for the project mid-review.
+
+---
+
+## **Date:** 24 June 2026
+
+### Discussion Points
+
+* The team reviewed progress before the mid-review.
+* Database implementation status and documentation were discussed.
+* Team members shared updates on their assigned modules.
+* Pending tasks for SQL, Python modules, and analytics were reviewed.
+
+### Decisions Taken
+
+* Existing work completed before the review was summarized.
+* Documentation should accurately reflect completed progress.
+* Database and analytics development will continue after the review.
+
+### Action Items
+
+1. Organize project documentation.
+2. Continue SQL implementation activities.
+3. Review pending attribution-related tasks.
+4. Plan the next phase of development.
+
+---
+
+## **Date:** 25 June 2026
+
+### Discussion Points
+
+* Team members reviewed the current database development progress.
+* Attribution-related SQL query requirements were discussed.
+* KPI calculation planning and implementation approach were reviewed.
+* Documentation updates and repository status were discussed.
+
+### Decisions Taken
+
+* Database implementation will continue according to project requirements.
+* Attribution query implementation will be prioritized.
+* KPI calculation queries will be prepared after attribution query development.
+* Project documentation should be updated regularly.
+
+### Action Items
+
+1. Continue database schema refinement.
+2. Develop attribution-related SQL queries.
+3. Prepare KPI calculation queries.
+4. Update project documentation.
+5. Synchronize repository changes.
+
+---
+
+## **Date:** 26 June 2026
+
+### Discussion Points
+
+* The team reviewed the latest repository updates.
+* Progress on preprocessing, feature engineering, attribution models, EDA, KPI implementation, and testing was discussed.
+* Team members were instructed to pull the latest updates before starting new work.
+* Coordination between database and analytics modules was reviewed to ensure compatibility.
+
+### Decisions Taken
+
+* All team members should synchronize their local branches with the latest project updates before making changes.
+* Development should continue on the latest project version.
+* Documentation should be updated to reflect current implementation progress.
+
+### Action Items
+
+1. Pull the latest repository updates.
+2. Verify local project setup after synchronization.
+3. Continue assigned development tasks.
+4. Update documentation based on completed work.
+5. Prepare for integration and testing of remaining modules.
