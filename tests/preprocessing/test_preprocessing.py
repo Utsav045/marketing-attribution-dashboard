@@ -58,7 +58,16 @@ try:
 
     from src.preprocessing.feature_engineering import feature_engineering
 
-    result = feature_engineering(sample_df)
+    sample_interaction = pd.DataFrame({
+        "Interaction_date": ["2025-01-01", "2025-01-02"]
+    })
+    sample_revenue = pd.DataFrame({
+        "Revenue": [100, 200]
+    })
+
+    result_adspend, result_interaction, result_revenue = feature_engineering(
+        sample_df, sample_interaction, sample_revenue
+    )
 
     print("[PASS] feature_engineering.py")
 

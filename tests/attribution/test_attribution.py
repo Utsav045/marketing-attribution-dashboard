@@ -5,7 +5,7 @@ import sys
 from src.attribution.attribution_engine import build_customer_journeys
 from src.attribution.first_touch import first_touch_attribution
 from src.attribution.last_touch import last_touch_attribution
-from src.attribution.linear_attribution import compute_linear_attribution
+from src.attribution.linear_attribution import linear_attribution
 from src.attribution.time_decay import time_decay_attribution
 from src.attribution.position_based import position_based_attribution
 
@@ -28,7 +28,7 @@ from src.attribution.last_touch import (
 )
 
 from src.attribution.linear_attribution import (
-    compute_linear_attribution,
+    linear_attribution,
 )
 
 from src.attribution.time_decay import (
@@ -81,7 +81,7 @@ def test_attribution():
 
     run_test(
         "Linear Attribution",
-        compute_linear_attribution
+        linear_attribution
     )
 
     run_test(
