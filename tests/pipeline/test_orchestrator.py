@@ -21,9 +21,21 @@ def test_run_pipeline_creates_processed_outputs(tmp_path, monkeypatch):
         }
     )
     interaction_df = pd.DataFrame(
-        {"User_id": [1], "Channel": ["Email"], "Spend": [100], "Clicks": [10], "Impressions": [1000], "Date": ["2025-01-01"]}
+        {
+            "User_id": [1],
+            "Channel": ["Email"],
+            "Interaction_date": ["2025-01-01"],
+            "Campaign_id": ["C1"],
+        }
     )
-    revenue_df = pd.DataFrame({"User_id": [1], "Revenue": [100]})
+    revenue_df = pd.DataFrame(
+        {
+            "Conversion_id": ["CV1"],
+            "User_id": [1],
+            "Revenue": [100],
+            "Conversion_date": ["2025-01-05"],
+        }
+    )
 
     adspend_df.to_csv(raw_dir / "Add Spend Dataset.csv", index=False)
     interaction_df.to_csv(raw_dir / "Customer Interaction Dataset.csv", index=False)

@@ -2,9 +2,11 @@ import pytest
 
 
 def test_run_all():
-    pytest.main([
+    exit_code = pytest.main([
         "tests/analytics/test_eda.py",
         "tests/analytics/test_kpi_calculator.py",
+        "tests/analytics/test_roas.py",
+        "tests/analytics/test_roi.py",
         "tests/attribution/test_attribution_engine.py",
         "tests/attribution/test_first_touch.py",
         "tests/attribution/test_last_touch.py",
@@ -24,3 +26,4 @@ def test_run_all():
         "tests/utils/test_helpers.py",
         "-q",
     ])
+    assert exit_code == 0

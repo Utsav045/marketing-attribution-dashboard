@@ -11,12 +11,19 @@ def test_build_customer_journeys_creates_output(tmp_path, monkeypatch):
     interaction_df = pd.DataFrame(
         {
             "User_id": [1, 1, 2],
-            "Date": ["2025-01-01", "2025-01-02", "2025-01-03"],
+            "Interaction_date": ["2025-01-01", "2025-01-02", "2025-01-03"],
             "Channel": ["Email", "Social", "Email"],
             "Campaign_id": ["C1", "C2", "C3"],
         }
     )
-    revenue_df = pd.DataFrame({"User_id": [1, 2], "Revenue": [100, 200]})
+    revenue_df = pd.DataFrame(
+        {
+            "Conversion_id": ["CV1", "CV2"],
+            "User_id": [1, 2],
+            "Revenue": [100, 200],
+            "Conversion_date": ["2025-01-05", "2025-01-06"],
+        }
+    )
 
     interaction_df.to_csv(processed_dir / "cleaned_customer_interaction_dataset.csv", index=False)
     revenue_df.to_csv(processed_dir / "cleaned_revenue_dataset.csv", index=False)
