@@ -18,15 +18,15 @@ def run_pipeline():
     # =====================================================
 
     adspend_df = pd.read_csv(
-        "data/raw/add_spend_dataset.csv"
+        "data/raw/Add Spend Dataset.csv"
     )
 
     interaction_df = pd.read_csv(
-        "data/raw/customer_interaction_dataset.csv"
+        "data/raw/Customer Interaction Dataset.csv"
     )
 
     revenue_df = pd.read_csv(
-        "data/raw/revenue_dataset.csv"
+        "data/raw/Revenue Dataset.csv"
     )
 
     print("Datasets Loaded Successfully")

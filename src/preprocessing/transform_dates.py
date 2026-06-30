@@ -24,11 +24,6 @@ def transform_dates(df: pd.DataFrame) -> pd.DataFrame:
     if "Date" in df.columns:
         df["Date"] = convert_date(df["Date"])
 
-    if "Interaction_date" in df.columns:
-        df["Interaction_date"] = convert_date(
-            df["Interaction_date"]
-        )
-
     if "Conversion_date" in df.columns:
         df["Conversion_date"] = convert_date(
             df["Conversion_date"]
