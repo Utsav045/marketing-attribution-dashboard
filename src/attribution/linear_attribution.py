@@ -5,12 +5,7 @@ from typing import Optional
 
 
 def _parse_revenue_value(raw_revenue: object) -> Optional[float]:
-    """Normalize revenue input and return a numeric value.
-
-    Handles raw revenue values stored as strings with currency formatting
-    such as "$1,234.56", as well as empty or missing values.
-    Returns None for invalid or missing revenue values.
-    """
+    
 
     if raw_revenue is None:
         return None
