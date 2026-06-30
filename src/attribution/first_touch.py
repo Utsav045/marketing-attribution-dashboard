@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def first_touch_attribution():
 
     df = pd.read_csv(
@@ -29,8 +28,8 @@ def first_touch_attribution():
         index=False
     )
 
-    print(result)
+    return result
 
 
 if __name__ == "__main__":
-    first_touch_attribution()
+    print(first_touch_attribution())

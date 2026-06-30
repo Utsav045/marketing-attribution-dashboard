@@ -1,48 +1,88 @@
-### **Date**: 21 June 2026
+# Database Design
 
-### Focus
-PostgreSQL setup and database schema implementation
+## Overview
 
-### Work Done
-- Installed and configured PostgreSQL.
-- Created the marketing_attribution database.
-- Implemented customer_journeys table.
-- Implemented campaigns table.
-- Implemented ad_spend_performance table.
-- Implemented revenue_conversions table.
-- Created database indexes for performance optimization.
-- Reviewed database schema structure against project requirements.
-- Updated project documentation and meeting notes.
+The Marketing Attribution Dashboard uses a PostgreSQL database to store customer interactions, campaign information, conversion events, and revenue data. The database is designed to support attribution analysis, KPI calculations, and dashboard reporting.
 
-### Deliverables
-- PostgreSQL environment setup
-- Database schema implementation
-- Table creation
-- Index creation
+---
 
-### Status
-Database schema implementation completed and prepared for attribution and KPI query development.
+# Database Tables
 
-### **Date**: 22 June 2026
+## 1. Campaigns
 
-### Focus
-Attribution and KPI query development
+**Purpose:**
+Stores information about marketing campaigns.
 
-### Work Done
-- Implemented First Touch Attribution query.
-- Implemented Last Touch Attribution query.
-- Implemented Linear Attribution query.
-- Developed initial KPI queries for Revenue, Spend, ROI, and ROAS calculations.
-- Reviewed SQL query structure and database relationships.
-- Updated project progress documentation.
+| Column        | Data Type     | Description       |
+| ------------- | ------------- | ----------------- |
+| campaign_id   | SERIAL        | Primary Key       |
+| campaign_name | VARCHAR(100)  | Campaign name     |
+| channel       | VARCHAR(50)   | Marketing channel |
+| spend         | DECIMAL(12,2) | Campaign cost     |
 
-### Deliverables
-- Attribution query implementation
-- KPI query preparation
-- SQL documentation updates
+---
 
-### Status
-Database environment is now prepared for dataset loading, advanced KPI calculations, EDA activities, and dashboard integration.
+## 2. Customers
 
-### Additional Notes
-Primary contributions during the review period included project documentation, dataset research, PostgreSQL setup, database schema creation, table implementation, index creation, attribution query implementation, KPI query preparation, repository synchronization, and project progress tracking activities. Current focus areas include dataset loading, exploratory data analysis (EDA), advanced KPI calculations, and dashboard preparation.
+**Purpose:**
+Stores customer information.
+
+| Column        | Data Type    | Description   |
+| ------------- | ------------ | ------------- |
+| customer_id   | SERIAL       | Primary Key   |
+| customer_name | VARCHAR(100) | Customer name |
+| email         | VARCHAR(100) | Email address |
+
+---
+
+## 3. Customer_Journeys
+
+**Purpose:**
+Stores customer interactions before conversion.
+
+| Column           | Data Type     | Description         |
+| ---------------- | ------------- | ------------------- |
+| journey_id       | SERIAL        | Primary Key         |
+| customer_id      | INTEGER       | Foreign Key         |
+| campaign_id      | INTEGER       | Foreign Key         |
+| interaction_date | DATE          | Interaction date    |
+| touch_order      | INTEGER       | Touchpoint sequence |
+| converted        | BOOLEAN       | Conversion status   |
+| revenue          | DECIMAL(12,2) | Revenue generated   |
+
+---
+
+# Relationships
+
+* One customer can have multiple customer journey records.
+* One campaign can interact with multiple customers.
+* Customer journeys link customers and campaigns using foreign keys.
+
+---
+
+# Database Objectives
+
+* Store marketing campaign information.
+* Track customer journeys.
+* Support attribution model calculations.
+* Calculate marketing KPIs.
+* Provide structured data for dashboard visualization.
+
+---
+
+# Indexing Strategy
+
+The following indexes improve query performance:
+
+* Index on `customer_id`
+* Index on `campaign_id`
+* Index on `interaction_date`
+
+---
+
+# Future Enhancements
+
+* Add user authentication tables.
+* Store attribution results.
+* Implement audit logging.
+* Optimize database for large-scale analytics.

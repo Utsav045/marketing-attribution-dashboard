@@ -25,20 +25,23 @@
 
 ### Palak
 
-* Project documentation
-* Meeting notes maintenance
+**Primary Responsibilities**
+
+* Project documentation and documentation management
+* Meeting notes preparation and maintenance
+* Database documentation (schema, KPI definitions, and SQL documentation)
 * Dataset research and documentation
-* Project tracking and progress updates
-* Testing support and validation
-* Final report and presentation support
-* Assistance in Python development (Data Loading / Data Cleaning modules)
-* PostgreSQL setup and configuration
-* Database schema implementation
-* Table creation (customer_journeys, campaigns, ad_spend_performance, revenue_conversions)
-* Database index creation and optimization support
-* Attribution query implementation support (First Touch, Last Touch, Linear Attribution)
-* KPI query preparation and validation
-* Database structure analysis and documentation
+* Project progress tracking and reporting
+* GitHub documentation updates and repository maintenance
+* Testing support and result validation
+* Final report preparation and presentation support
+
+**Development Support**
+
+* Assistance in Python development (Data Loading and Data Cleaning modules)
+* Support for SQL database implementation and documentation
+* Coordination of documentation with ongoing project development
+* Review and update of project deliverables before milestones
 
 ## Notes
 

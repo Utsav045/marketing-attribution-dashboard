@@ -1,116 +1,161 @@
 # KPI Definitions
 
-## 1. Revenue
+## Overview
 
-Definition:
-Total income generated from customer conversions.
-
-Formula:
-Revenue = Sum of all conversion revenue values
-
-Business Use:
-Used to measure the total earnings generated from marketing campaigns.
+Key Performance Indicators (KPIs) are measurable metrics used to evaluate the effectiveness of marketing campaigns and customer acquisition strategies. These KPIs help analyze campaign performance, optimize marketing efforts, and support data-driven decision-making.
 
 ---
 
-## 2. Ad Spend
+## 1. Total Revenue
 
-Definition:
-Total amount spent on marketing and advertising campaigns.
+**Definition:**
+The total revenue generated from all successful customer conversions during the selected analysis period.
 
-Formula:
-Ad Spend = Sum of campaign spending
+**Formula:**
 
-Business Use:
-Used to evaluate marketing investment and campaign costs.
+```text
+Total Revenue = SUM(Revenue)
+```
 
----
+**Purpose:**
 
-## 3. ROAS (Return on Ad Spend)
-
-Definition:
-Measures the revenue generated for every unit of advertising spend.
-
-Formula:
-ROAS = Total Revenue / Total Ad Spend
-
-Business Use:
-Used to determine the effectiveness of advertising campaigns.
+* Measure overall business performance.
+* Compare revenue across campaigns and marketing channels.
 
 ---
 
-## 4. ROI (Return on Investment)
+## 2. Total Conversions
 
-Definition:
-Measures the profitability of marketing investments.
+**Definition:**
+The total number of successful customer conversions.
 
-Formula:
-ROI = ((Revenue - Spend) / Spend) × 100
+**Formula:**
 
-Business Use:
-Used to evaluate overall campaign profitability.
+```text
+Total Conversions = COUNT(Conversions)
+```
 
----
+**Purpose:**
 
-## 5. CPC (Cost Per Click)
-
-Definition:
-Average cost incurred for each ad click.
-
-Formula:
-CPC = Total Spend / Total Clicks
-
-Business Use:
-Used to analyze advertising efficiency and cost effectiveness.
+* Measure campaign effectiveness.
+* Evaluate marketing performance.
 
 ---
 
-## 6. CPM (Cost Per Mille)
+## 3. Conversion Rate
 
-Definition:
-Cost incurred for every 1,000 ad impressions.
+**Definition:**
+The percentage of visitors or customers who completed a desired action.
 
-Formula:
-CPM = (Total Spend / Total Impressions) × 1000
+**Formula:**
 
-Business Use:
-Used to evaluate campaign reach and advertising cost efficiency.
+```text
+Conversion Rate (%) = (Conversions / Total Visitors) × 100
+```
 
----
+**Purpose:**
 
-## 7. CTR (Click Through Rate)
-
-Definition:
-Percentage of users who clicked on an advertisement after viewing it.
-
-Formula:
-CTR = (Clicks / Impressions) × 100
-
-Business Use:
-Used to measure advertisement engagement.
+* Measure marketing efficiency.
+* Compare campaign performance.
 
 ---
 
-## 8. Conversion Rate
+## 4. Cost Per Acquisition (CPA)
 
-Definition:
-Percentage of users who completed a desired action after interacting with a campaign.
+**Definition:**
+The average marketing cost required to acquire one customer.
 
-Formula:
-Conversion Rate = (Conversions / Clicks) × 100
+**Formula:**
 
-Business Use:
-Used to measure campaign effectiveness in driving conversions.
+```text
+CPA = Total Marketing Spend / Total Conversions
+```
+
+**Purpose:**
+
+* Evaluate customer acquisition efficiency.
+* Optimize marketing budgets.
 
 ---
 
-## 9. CAC (Customer Acquisition Cost)
+## 5. Return on Investment (ROI)
 
-Definition:
-Average cost required to acquire one customer.
+**Definition:**
+Measures the profitability of marketing campaigns.
 
-Formula:
-CAC = Total Marketing Spend / Total Customers Acquired
+**Formula:**
 
-Business Use:
-Used to evaluate customer acquisition efficiency.
+```text
+ROI (%) = ((Revenue − Marketing Cost) / Marketing Cost) × 100
+```
+
+**Purpose:**
+
+* Measure campaign profitability.
+* Compare returns across marketing channels.
+
+---
+
+## 6. Customer Acquisition Cost (CAC)
+
+**Definition:**
+The average cost incurred to acquire a new customer.
+
+**Formula:**
+
+```text
+CAC = Total Marketing Cost / Number of New Customers
+```
+
+**Purpose:**
+
+* Evaluate customer acquisition strategy.
+* Monitor marketing efficiency.
+
+---
+
+## 7. Average Revenue per Customer (ARPC)
+
+**Definition:**
+The average revenue generated from each converted customer.
+
+**Formula:**
+
+```text
+ARPC = Total Revenue / Total Customers
+```
+
+**Purpose:**
+
+* Understand customer value.
+* Compare customer profitability.
+
+---
+
+## 8. First Touch Attribution
+
+**Definition:**
+Assigns 100% of the conversion credit to the first marketing channel that interacted with the customer.
+
+**Purpose:**
+
+* Identify the channels that generate initial customer interest.
+* Evaluate top-of-funnel marketing effectiveness.
+
+---
+
+## 9. Linear Attribution
+
+**Definition:**
+Distributes conversion credit equally across all customer touchpoints in the customer journey.
+
+**Purpose:**
+
+* Measure the contribution of every marketing interaction.
+* Analyze the complete customer journey.
+
+---
+
+## Conclusion
+
+These KPIs provide a comprehensive view of marketing performance and customer behavior. Combined with attribution models, they help organizations evaluate campaign effectiveness, optimize marketing spend, and improve overall business decision-making.

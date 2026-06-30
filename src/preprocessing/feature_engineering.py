@@ -2,146 +2,233 @@ import pandas as pd
 import numpy as np
 
 
-def feature_engineering(adspend_df, interaction_df, revenue_df):
-    """
-    Apply feature engineering to all datasets.
-    """
+# =====================================================
+# AD SPEND FEATURES
+# =====================================================
+
+def create_ctr(df):
+
+    df["CTR"] = np.where(
+        df["Impressions"] > 0,
+        (df["Clicks"] / df["Impressions"]) * 100,
+        0
+    )
+
+    return df
+
+
+def create_cpc(df):
+
+    df["CPC"] = np.where(
+        df["Clicks"] > 0,
+        df["Spend"] / df["Clicks"],
+        0
+    )
+
+    return df
+
+
+def create_cpm(df):
+
+    df["CPM"] = np.where(
+        df["Impressions"] > 0,
+        (df["Spend"] / df["Impressions"]) * 1000,
+        0
+    )
+
+    return df
+
+
+def create_campaign_efficiency(df):
+
+    df["Campaign_Efficiency"] = np.where(
+        df["Spend"] > 0,
+        df["Clicks"] / df["Spend"],
+        0
+    )
+
+    return df
+
+
+def create_engagement_score(df):
+
+    df["Engagement_Score"] = (
+        df["CTR"] * df["Campaign_Efficiency"]
+    )
+
+    return df
+
+
+def create_spend_category(df):
+
+    df["Spend_Category"] = pd.cut(
+        df["Spend"],
+        bins=[0, 1000, 5000, 10000, float("inf")],
+        labels=["Low", "Medium", "High", "Very High"],
+        include_lowest=True
+    )
+
+    return df
+
+
+def create_click_category(df):
+
+    df["Click_Category"] = pd.cut(
+        df["Clicks"],
+        bins=[0, 100, 500, 1000, float("inf")],
+        labels=["Low", "Medium", "High", "Very High"],
+        include_lowest=True
+    )
+
+    return df
+
+
+# =====================================================
+# CUSTOMER INTERACTION FEATURES
+# =====================================================
+
+def create_interaction_features(df):
+
+    df["Interaction_date"] = pd.to_datetime(
+        df["Interaction_date"],
+        errors="coerce"
+    )
+
+    df["Interaction_Day"] = (
+        df["Interaction_date"].dt.day_name()
+    )
+
+    df["Interaction_Month"] = (
+        df["Interaction_date"].dt.month_name()
+    )
+
+    df["Interaction_Quarter"] = (
+        df["Interaction_date"].dt.quarter
+    )
+
+    df["Is_Weekend"] = np.where(
+        df["Interaction_date"].dt.dayofweek >= 5,
+        1,
+        0
+    )
+
+    return df
+
+
+# =====================================================
+# REVENUE FEATURES
+# =====================================================
+
+def create_revenue_log(df):
+
+    df["Revenue_Log"] = np.log1p(
+        df["Revenue"]
+    )
+
+    return df
+
+
+def create_revenue_rank(df):
+
+    df["Revenue_Rank"] = (
+        df["Revenue"]
+        .rank(method="dense", ascending=False)
+    )
+
+    return df
+
+
+def create_high_value_conversion(df):
+
+    df["High_Value_Conversion"] = np.where(
+        df["Revenue"] >
+        df["Revenue"].median(),
+        1,
+        0
+    )
+
+    return df
+
+
+def create_revenue_category(df):
+
+    df["Revenue_Category"] = pd.cut(
+        df["Revenue"],
+        bins=[0, 100, 500, 1000, float("inf")],
+        labels=["Low", "Medium", "High", "Very High"],
+        include_lowest=True
+    )
+
+    return df
+
+
+# =====================================================
+# MAIN FEATURE ENGINEERING FUNCTION
+# =====================================================
+
+def feature_engineering(
+    adspend_df,
+    interaction_df,
+    revenue_df
+):
 
     print("Starting Feature Engineering...")
 
-    # =====================================================
-    # AD SPEND DATASET FEATURES
-    # =====================================================
+    # Ad Spend Features
+    adspend_df = create_ctr(adspend_df)
+    adspend_df = create_cpc(adspend_df)
+    adspend_df = create_cpm(adspend_df)
+    adspend_df = create_campaign_efficiency(adspend_df)
+    adspend_df = create_engagement_score(adspend_df)
+    adspend_df = create_spend_category(adspend_df)
+    adspend_df = create_click_category(adspend_df)
 
-    adspend_df["CTR"] = np.where(
-        adspend_df["Impressions"] > 0,
-        (adspend_df["Clicks"] / adspend_df["Impressions"]) * 100,
-        0
+    # Customer Interaction Features
+    interaction_df = create_interaction_features(
+        interaction_df
     )
 
-    adspend_df["CPC"] = np.where(
-        adspend_df["Clicks"] > 0,
-        adspend_df["Spend"] / adspend_df["Clicks"],
-        0
+    # Revenue Features
+    revenue_df = create_revenue_log(revenue_df)
+    revenue_df = create_revenue_rank(revenue_df)
+    revenue_df = create_high_value_conversion(
+        revenue_df
     )
-
-    adspend_df["CPM"] = np.where(
-        adspend_df["Impressions"] > 0,
-        (adspend_df["Spend"] / adspend_df["Impressions"]) * 1000,
-        0
+    revenue_df = create_revenue_category(
+        revenue_df
     )
-
-    adspend_df["Campaign_Efficiency"] = np.where(
-        adspend_df["Spend"] > 0,
-        adspend_df["Clicks"] / adspend_df["Spend"],
-        0
-    )
-
-    adspend_df["Engagement_Score"] = (
-        adspend_df["CTR"] *
-        adspend_df["Campaign_Efficiency"]
-    )
-
-    # =====================================================
-    # CUSTOMER INTERACTION DATASET FEATURES
-    # =====================================================
-
-    if {
-        "Impressions",
-        "Clicks",
-        "Spend"
-    }.issubset(interaction_df.columns):
-        interaction_df["Interaction_Rate"] = np.where(
-            interaction_df["Impressions"] > 0,
-            interaction_df["Clicks"] / interaction_df["Impressions"],
-            0
-        )
-
-        interaction_df["Engagement_Index"] = np.where(
-            interaction_df["Impressions"] > 0,
-            (interaction_df["Clicks"] * 100) /
-            interaction_df["Impressions"],
-            0
-        )
-
-        interaction_df["Channel_Performance"] = np.where(
-            interaction_df["Spend"] > 0,
-            interaction_df["Clicks"] / interaction_df["Spend"],
-            0
-        )
-    else:
-        if "Interaction_date" in interaction_df.columns:
-            interaction_df["Interaction_Day"] = pd.to_datetime(
-                interaction_df["Interaction_date"],
-                errors="coerce"
-            ).dt.day_name()
-            interaction_df["Interaction_Month"] = pd.to_datetime(
-                interaction_df["Interaction_date"],
-                errors="coerce"
-            ).dt.month
-
-    # =====================================================
-    # REVENUE DATASET FEATURES
-    # =====================================================
-
-    if "Revenue" in revenue_df.columns:
-        revenue_df["Revenue"] = (
-            revenue_df["Revenue"]
-            .astype(str)
-            .replace(r"[\$,]", "", regex=True)
-            .replace("nan", "")
-            .astype(float)
-        )
-
-        revenue_df["Revenue_Log"] = np.log1p(
-            revenue_df["Revenue"]
-        )
-
-        revenue_df["Revenue_Rank"] = (
-            revenue_df["Revenue"]
-            .rank(method="dense", ascending=False)
-        )
-
-        revenue_df["High_Value_Conversion"] = np.where(
-            revenue_df["Revenue"] >
-            revenue_df["Revenue"].median(),
-            1,
-            0
-        )
-
-        revenue_df["Revenue_Category"] = pd.cut(
-            revenue_df["Revenue"],
-            bins=[0, 100, 500, 1000, float("inf")],
-            labels=["Low", "Medium", "High", "Very High"],
-            include_lowest=True
-        )
 
     print("Feature Engineering Completed")
 
-    return adspend_df, interaction_df, revenue_df
+    return (
+        adspend_df,
+        interaction_df,
+        revenue_df
+    )
 
+
+# =====================================================
+# SAVE FILES
+# =====================================================
 
 def save_featured_datasets(
     adspend_df,
     interaction_df,
     revenue_df
 ):
-    """
-    Save processed datasets.
-    """
 
     adspend_df.to_csv(
-        "data/processed/adspend_featured.csv",
+        "data/processed/adspend_featured_eng.csv",
         index=False
     )
 
     interaction_df.to_csv(
-        "data/processed/interaction_featured.csv",
+        "data/processed/interaction_featured_eng.csv",
         index=False
     )
 
     revenue_df.to_csv(
-        "data/processed/revenue_featured.csv",
+        "data/processed/revenue_featured_eng.csv",
         index=False
     )
 
@@ -151,21 +238,22 @@ def save_featured_datasets(
     print("data/processed/revenue_featured.csv")
 
 
+# =====================================================
+# MAIN FUNCTION
+# =====================================================
+
 def main():
-    """
-    Main execution function.
-    """
 
     adspend_df = pd.read_csv(
-        "data/raw/add_spend_dataset.csv"
+        "data/processed/cleaned_add_spend_dataset.csv"
     )
 
     interaction_df = pd.read_csv(
-        "data/raw/customer_interaction_dataset.csv"
+        "data/processed/cleaned_customer_interaction_dataset.csv"
     )
 
     revenue_df = pd.read_csv(
-        "data/raw/revenue_dataset.csv"
+        "data/processed/cleaned_revenue_dataset.csv"
     )
 
     (
