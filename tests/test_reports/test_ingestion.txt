@@ -254,3 +254,51 @@ Test: tests/ingestion/test_ingestion.py::test_load_raw_data_reads_expected_files
 Outcome: PASSED
 Duration: 0.013s
 
+================================================================================
+Test Report: test_ingestion.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/ingestion/test_ingestion.py::test_load_data_is_callable
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/ingestion/test_ingestion.py::test_load_raw_data_reads_expected_files
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_ingestion.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/ingestion/test_ingestion.py::test_load_data_is_callable
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/ingestion/test_ingestion.py::test_load_raw_data_reads_expected_files
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_ingestion.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/ingestion/test_ingestion.py::test_load_data_is_callable
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/ingestion/test_ingestion.py::test_load_raw_data_reads_expected_files
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_ingestion.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/ingestion/test_ingestion.py::test_load_data_is_callable
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/ingestion/test_ingestion.py::test_load_raw_data_reads_expected_files
+Outcome: PASSED
+Duration: 0.016s
+

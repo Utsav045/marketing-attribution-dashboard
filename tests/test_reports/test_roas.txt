@@ -598,3 +598,99 @@ Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
 Outcome: PASSED
 Duration: 0.006s
 
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.022s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+

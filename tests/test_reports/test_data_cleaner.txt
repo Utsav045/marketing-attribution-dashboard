@@ -523,3 +523,83 @@ Test: tests/preprocessing/test_data_cleaner.py::test_run_data_cleaning_writes_fi
 Outcome: PASSED
 Duration: 0.031s
 
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_removes_duplicates_and_converts_currency
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_handles_non_numeric_currency_values
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_run_data_cleaning_writes_files
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_removes_duplicates_and_converts_currency
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_handles_non_numeric_currency_values
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_run_data_cleaning_writes_files
+Outcome: PASSED
+Duration: 0.021s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_removes_duplicates_and_converts_currency
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_handles_non_numeric_currency_values
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_run_data_cleaning_writes_files
+Outcome: PASSED
+Duration: 0.033s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_removes_duplicates_and_converts_currency
+Outcome: PASSED
+Duration: 0.005s
+
+Test: tests/preprocessing/test_data_cleaner.py::test_clean_data_handles_non_numeric_currency_values
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_data_cleaner.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/preprocessing/test_data_cleaner.py::test_run_data_cleaning_writes_files
+Outcome: PASSED
+Duration: 0.056s
+

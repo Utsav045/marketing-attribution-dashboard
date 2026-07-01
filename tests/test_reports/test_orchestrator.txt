@@ -198,3 +198,35 @@ Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_o
 Outcome: PASSED
 Duration: 0.041s
 
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.031s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.041s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.067s
+

@@ -198,3 +198,35 @@ Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_r
 Outcome: PASSED
 Duration: 0.025s
 
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.019s
+
