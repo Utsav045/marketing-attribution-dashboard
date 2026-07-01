@@ -17,6 +17,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pytest",
+    "pytest-cov",
     "black",
     "ruff",
 ]
@@ -26,6 +27,14 @@ python_files = ["test_*.py"]
 python_classes = ["Test*"]
 testpaths = ["tests"]
 addopts = "-q"
+
+[tool.black]
+target-version = ["py312"]
+include = '\.pyi?$'
+exclude = '(/\.|\.venv|\.git|__pycache__|notebooks)'
+
+[tool.ruff]
+exclude = [".git", "__pycache__", "node_modules", "build", ".venv", "notebooks"]
 
 [tool.pyright]
 extraPaths = ["."]

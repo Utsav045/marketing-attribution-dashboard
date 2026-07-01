@@ -12,13 +12,13 @@ def test_calculate_roas_with_sample_data(tmp_path, monkeypatch):
         {"Campaign_id": ["C1"], "Channel": ["Email"], "Spend": [100.0]}
     ).to_csv(processed_dir / "adspend_featured_eng.csv", index=False)
 
-    pd.DataFrame(
-        {"User_id": [1], "Campaign_id": ["C1"]}
-    ).to_csv(processed_dir / "interaction_featured_eng.csv", index=False)
+    pd.DataFrame({"User_id": [1], "Campaign_id": ["C1"]}).to_csv(
+        processed_dir / "interaction_featured_eng.csv", index=False
+    )
 
-    pd.DataFrame(
-        {"User_id": [1], "Revenue": [500.0]}
-    ).to_csv(processed_dir / "revenue_featured_eng.csv", index=False)
+    pd.DataFrame({"User_id": [1], "Revenue": [500.0]}).to_csv(
+        processed_dir / "revenue_featured_eng.csv", index=False
+    )
 
     result = calculate_roas()
 
@@ -31,17 +31,17 @@ def test_calculate_roas_handles_zero_spend(tmp_path, monkeypatch):
     processed_dir = tmp_path / "data" / "processed"
     processed_dir.mkdir(parents=True)
 
-    pd.DataFrame(
-        {"Campaign_id": ["C1"], "Channel": ["Email"], "Spend": [0.0]}
-    ).to_csv(processed_dir / "adspend_featured_eng.csv", index=False)
+    pd.DataFrame({"Campaign_id": ["C1"], "Channel": ["Email"], "Spend": [0.0]}).to_csv(
+        processed_dir / "adspend_featured_eng.csv", index=False
+    )
 
-    pd.DataFrame(
-        {"User_id": [1], "Campaign_id": ["C1"]}
-    ).to_csv(processed_dir / "interaction_featured_eng.csv", index=False)
+    pd.DataFrame({"User_id": [1], "Campaign_id": ["C1"]}).to_csv(
+        processed_dir / "interaction_featured_eng.csv", index=False
+    )
 
-    pd.DataFrame(
-        {"User_id": [1], "Revenue": [500.0]}
-    ).to_csv(processed_dir / "revenue_featured_eng.csv", index=False)
+    pd.DataFrame({"User_id": [1], "Revenue": [500.0]}).to_csv(
+        processed_dir / "revenue_featured_eng.csv", index=False
+    )
 
     result = calculate_roas()
 

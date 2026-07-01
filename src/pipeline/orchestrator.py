@@ -2,7 +2,6 @@ import pandas as pd
 
 from src.preprocessing.data_cleaner import clean_data
 from src.preprocessing.handle_missing import handle_missing
-from src.preprocessing.transform_dates import convert_date
 from src.preprocessing.transform_dates import transform_dates
 from src.preprocessing.feature_engineering import feature_engineering
 
@@ -17,17 +16,11 @@ def run_pipeline():
     # LOAD DATASETS
     # =====================================================
 
-    adspend_df = pd.read_csv(
-        "data/raw/Add Spend Dataset.csv"
-    )
+    adspend_df = pd.read_csv("data/raw/Add Spend Dataset.csv")
 
-    interaction_df = pd.read_csv(
-        "data/raw/Customer Interaction Dataset.csv"
-    )
+    interaction_df = pd.read_csv("data/raw/Customer Interaction Dataset.csv")
 
-    revenue_df = pd.read_csv(
-        "data/raw/Revenue Dataset.csv"
-    )
+    revenue_df = pd.read_csv("data/raw/Revenue Dataset.csv")
 
     print("Datasets Loaded Successfully")
 
@@ -64,14 +57,8 @@ def run_pipeline():
     # FEATURE ENGINEERING
     # =====================================================
 
-    (
-        adspend_df,
-        interaction_df,
-        revenue_df
-    ) = feature_engineering(
-        adspend_df,
-        interaction_df,
-        revenue_df
+    adspend_df, interaction_df, revenue_df = feature_engineering(
+        adspend_df, interaction_df, revenue_df
     )
 
     print("Feature Engineering Completed")
@@ -80,20 +67,11 @@ def run_pipeline():
     # SAVE FINAL DATASETS
     # =====================================================
 
-    adspend_df.to_csv(
-        "data/processed/adspend_featured.csv",
-        index=False
-    )
+    adspend_df.to_csv("data/processed/adspend_featured.csv", index=False)
 
-    interaction_df.to_csv(
-        "data/processed/interaction_featured.csv",
-        index=False
-    )
+    interaction_df.to_csv("data/processed/interaction_featured.csv", index=False)
 
-    revenue_df.to_csv(
-        "data/processed/revenue_featured.csv",
-        index=False
-    )
+    revenue_df.to_csv("data/processed/revenue_featured.csv", index=False)
 
     print("\nProcessed Datasets Saved")
 
@@ -104,8 +82,4 @@ def run_pipeline():
 
     print("\nPIPELINE COMPLETED SUCCESSFULLY")
 
-    return (
-        adspend_df,
-        interaction_df,
-        revenue_df
-    )
+    return (adspend_df, interaction_df, revenue_df)

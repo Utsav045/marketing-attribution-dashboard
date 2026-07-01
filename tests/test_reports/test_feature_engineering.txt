@@ -1,0 +1,168 @@
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:11:03
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:31:07
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.037s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:35:08
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:47:15
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:47:29
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:48:47
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.029s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 15:48:51
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:01:59
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.033s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:02:02
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.009s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:12:55
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:12:57
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:20:38
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:20:40
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.010s
+
