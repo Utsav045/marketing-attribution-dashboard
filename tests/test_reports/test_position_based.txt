@@ -230,3 +230,35 @@ Test: tests/attribution/test_position_based.py::test_position_based_attribution_
 Outcome: PASSED
 Duration: 0.018s
 
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.008s
+

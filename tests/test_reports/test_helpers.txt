@@ -494,3 +494,83 @@ Test: tests/utils/test_helpers.py::test_generate_summary_returns_dataframe
 Outcome: PASSED
 Duration: 0.003s
 
+================================================================================
+Test Report: test_helpers.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/utils/test_helpers.py::test_check_missing_values_reports_missing_values
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_load_and_save_csv
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/utils/test_helpers.py::test_check_duplicates_reports_duplicate_rows
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_generate_summary_returns_dataframe
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_helpers.py
+Run started: 2026-07-01 16:30:38
+================================================================================
+Test: tests/utils/test_helpers.py::test_check_missing_values_reports_missing_values
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_load_and_save_csv
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/utils/test_helpers.py::test_check_duplicates_reports_duplicate_rows
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_generate_summary_returns_dataframe
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_helpers.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/utils/test_helpers.py::test_check_missing_values_reports_missing_values
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_load_and_save_csv
+Outcome: PASSED
+Duration: 0.005s
+
+Test: tests/utils/test_helpers.py::test_check_duplicates_reports_duplicate_rows
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_generate_summary_returns_dataframe
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_helpers.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/utils/test_helpers.py::test_check_missing_values_reports_missing_values
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_load_and_save_csv
+Outcome: PASSED
+Duration: 0.005s
+
+Test: tests/utils/test_helpers.py::test_check_duplicates_reports_duplicate_rows
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_helpers.py::test_generate_summary_returns_dataframe
+Outcome: PASSED
+Duration: 0.003s
+

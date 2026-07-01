@@ -462,3 +462,67 @@ Test: tests/analytics/test_roi.py::test_calculate_roi_handles_zero_spend
 Outcome: PASSED
 Duration: 0.021s
 
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_with_sample_data
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_handles_zero_spend
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_with_sample_data
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_handles_zero_spend
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_with_sample_data
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_handles_zero_spend
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_with_sample_data
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_roi.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/analytics/test_roi.py::test_calculate_roi_handles_zero_spend
+Outcome: PASSED
+Duration: 0.015s
+

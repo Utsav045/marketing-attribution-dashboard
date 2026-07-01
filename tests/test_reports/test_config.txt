@@ -230,3 +230,35 @@ Test: tests/utils/test_config.py::test_project_root_exists
 Outcome: PASSED
 Duration: 0.000s
 
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:38
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+

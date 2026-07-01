@@ -230,3 +230,35 @@ Test: tests/attribution/test_time_decay.py::test_time_decay_attribution_writes_o
 Outcome: PASSED
 Duration: 0.012s
 
+================================================================================
+Test Report: test_time_decay.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_time_decay.py::test_time_decay_attribution_writes_output
+Outcome: PASSED
+Duration: 0.034s
+
+================================================================================
+Test Report: test_time_decay.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_time_decay.py::test_time_decay_attribution_writes_output
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_time_decay.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/attribution/test_time_decay.py::test_time_decay_attribution_writes_output
+Outcome: PASSED
+Duration: 0.051s
+
+================================================================================
+Test Report: test_time_decay.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/attribution/test_time_decay.py::test_time_decay_attribution_writes_output
+Outcome: PASSED
+Duration: 0.008s
+

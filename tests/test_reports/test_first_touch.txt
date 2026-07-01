@@ -230,3 +230,35 @@ Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes
 Outcome: PASSED
 Duration: 0.019s
 
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+

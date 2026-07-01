@@ -174,3 +174,19 @@ Test: tests/test_all.py::test_run_all
 Outcome: PASSED
 Duration: 1.142s
 
+================================================================================
+Test Report: test_all.py
+Run started: 2026-07-01 16:30:38
+================================================================================
+Test: tests/test_all.py::test_run_all
+Outcome: PASSED
+Duration: 0.707s
+
+================================================================================
+Test Report: test_all.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/test_all.py::test_run_all
+Outcome: PASSED
+Duration: 0.873s
+

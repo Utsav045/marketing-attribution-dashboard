@@ -230,3 +230,35 @@ Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_
 Outcome: PASSED
 Duration: 0.011s
 
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.009s
+
+================================================================================
+Test Report: test_feature_engineering.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/preprocessing/test_feature_engineering.py::test_feature_engineering_adds_expected_columns
+Outcome: PASSED
+Duration: 0.010s
+

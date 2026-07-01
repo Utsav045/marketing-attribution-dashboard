@@ -295,3 +295,35 @@ Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not
 Outcome: PASSED
 Duration: 0.001s
 
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.001s
+
