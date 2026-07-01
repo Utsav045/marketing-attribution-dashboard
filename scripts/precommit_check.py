@@ -270,7 +270,8 @@ def main() -> int:
         coverage_percent,
         quality_score,
     )
-    PRECOMMIT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    with PRECOMMIT_REPORT.open("a", encoding="utf-8") as report_file:
+        report_file.write("\n".join(report_lines) + "\n")
 
     commit_allowed = compile_success and quality_score >= REPORT_THRESHOLD
     return 0 if commit_allowed else 1

@@ -138,3 +138,43 @@ Test: tests/preprocessing/test_preprocessing.py::test_feature_engineering_import
 Outcome: PASSED
 Duration: 0.011s
 
+================================================================================
+Test Report: test_preprocessing.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/preprocessing/test_preprocessing.py::test_clean_data_import_and_run
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/preprocessing/test_preprocessing.py::test_handle_missing_import_and_run
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/preprocessing/test_preprocessing.py::test_transform_dates_import_and_run
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/preprocessing/test_preprocessing.py::test_feature_engineering_import_and_run
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_preprocessing.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/preprocessing/test_preprocessing.py::test_clean_data_import_and_run
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/preprocessing/test_preprocessing.py::test_handle_missing_import_and_run
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/preprocessing/test_preprocessing.py::test_transform_dates_import_and_run
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/preprocessing/test_preprocessing.py::test_feature_engineering_import_and_run
+Outcome: PASSED
+Duration: 0.010s
+
