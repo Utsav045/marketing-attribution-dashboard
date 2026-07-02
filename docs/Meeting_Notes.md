@@ -252,113 +252,131 @@
 
 ---
 
-## **Date** : 26 June 2026
+### **Date**: 26 June 2026
 
 ### Discussion Points
 
 * The team reviewed the latest repository updates and overall project progress.
 * Progress on preprocessing, feature engineering, attribution models, Exploratory Data Analysis (EDA), KPI implementation, and testing was discussed.
-* Team members were instructed to pull the latest repository updates before starting new development work.
-* Repository synchronization and branch updates were reviewed to ensure all members worked on the latest project version.
-* Coordination between database and analytics modules was discussed to ensure compatibility.
+* Database architecture, SQL workflow, and implementation planning were reviewed.
+* Repository synchronization and branch updates were discussed.
 * Documentation updates, project progress, and future development planning were reviewed.
 
 ### Decisions Taken
 
-* All team members should synchronize their local branches with the latest repository updates before making any changes.
-* Development should continue using the latest project version.
-* EDA implementation and KPI development will continue according to the project roadmap.
+* Team members should synchronize their local branches before starting development.
+* EDA and KPI development will continue according to the project roadmap.
+* Database implementation will proceed after planning and documentation are finalized.
 * Documentation should be updated alongside development activities.
-* Project progress will be reviewed regularly to ensure timely completion.
 
 ### Action Items
 
 1. Pull the latest repository updates.
-2. Verify the local project setup after synchronization.
-3. Continue assigned development tasks.
-4. Continue EDA and KPI implementation.
-5. Update project documentation based on completed work.
-6. Review project progress and future development plans.
-7. Prepare for integration and testing of the remaining modules.
+2. Continue assigned development tasks.
+3. Continue EDA and KPI implementation.
+4. Review database design and SQL implementation plan.
+5. Update project documentation.
+6. Prepare for integration and testing.
 
----
 
-## **Date** : 27 June 2026
+### **Date**: 27 June 2026
 
 ### Discussion Points
 
-* SQL database implementation progress was reviewed.
-* Attribution queries and KPI queries were discussed.
-* SQL development focused on implementing basic KPI calculations and validation queries.
-* Database documentation and SQL file organization were reviewed.
-* Future SQL development, testing, and project milestones were discussed.
+* Database design and SQL implementation strategy were reviewed.
+* Attribution models and KPI calculation requirements were discussed.
+* SQL file organization and documentation standards were reviewed.
+* Future database implementation and testing plans were discussed.
+* GitHub repository updates and documentation progress were reviewed.
 
 ### Decisions Taken
-
-* Complete the basic KPI queries before moving to advanced SQL development.
-* Keep SQL scripts properly documented and organized.
-* Continue regular GitHub commits after completing assigned tasks.
-* Database testing will begin after validating the implemented SQL queries.
+* Final SQL implementation will begin after completing the database design review.
+* Documentation should remain synchronized with development progress.
+* Team members should continue regular GitHub commits.
 
 ### Action Items
+1. Review SQL implementation plan.
+2. Continue documentation updates.
+3. Prepare SQL files for implementation.
+4. Review KPI calculation requirements.
+5. Continue project progress tracking.
 
-1. Update `attribution_queries.sql`.
-2. Update `kpi_queries.sql`.
-3. Implement basic KPI queries and SQL validation queries.
-4. Review SQL implementation progress.
-5. Prepare SQL scripts for database testing.
 
----
-
-## **Date** : 29 June 2026
+### **Date**: 29 June 2026
 
 ### Discussion Points
-
 * Overall project progress and completed work were reviewed.
-* SQL implementation status and remaining database tasks were discussed.
-* Database testing, KPI validation, and dashboard integration planning were reviewed.
+* Database integration planning and analytics workflow were discussed.
+* Dashboard integration and testing strategy were reviewed.
 * Documentation updates and project timeline were discussed.
-* Future development milestones and final project preparation were planned.
+* Final implementation milestones were planned.
 
 ### Decisions Taken
-
-* Complete the remaining SQL implementation according to project requirements.
-* Validate SQL queries after importing project datasets.
-* Continue updating documentation with the latest project progress.
-* Prepare the project for dashboard integration and final testing.
+* Database implementation will be finalized in the next development phase.
+* Documentation should continue to reflect current project progress.
+* Dashboard integration and testing will begin after implementation completion.
 
 ### Action Items
+1. Continue project documentation.
+2. Prepare for database implementation.
+3. Review analytics integration.
+4. Prepare for dashboard integration and final testing.
 
-1. Validate SQL queries using project datasets.
-2. Continue remaining SQL development.
-3. Update project documentation.
-4. Prepare for dashboard integration and final project review.
 
-## **Date** : 30 June 2026
+### **Date**: 30 June 2026
 
 ### Discussion Points
-
-* The team reviewed the latest project progress and testing activities.
-* Unit testing for analytics modules, including ROAS and ROI calculations, was discussed.
-* Test cases were updated to match the latest dataset schema and project implementation.
-* Test failures related to attribution, preprocessing, feature engineering, and orchestration modules were reviewed and resolved.
-* The project test suite execution and overall repository health were discussed.
+* The team reviewed the latest project progress and overall repository status.
+* The implementation of the final SQL database structure was reviewed.
+* Development of the database schema, staging tables, attribution queries, KPI queries, and dashboard SQL views was discussed.
+* SQL documentation and validation strategy were reviewed before integration.
+* Analytics testing activities, including ROAS, ROI, preprocessing, attribution, feature engineering, and orchestration modules, were discussed.
 * Repository cleanup, branch synchronization, and project maintenance activities were reviewed.
-* Overall project progress, testing status, and future integration plans were discussed.
+* Team members discussed the upcoming integration phase and final project preparation.
 
 ### Decisions Taken
-
-* All test cases should remain synchronized with the latest project implementation and dataset schema.
-* Repository cleanup should continue by removing obsolete files and maintaining a consistent project structure.
-* Team members should synchronize their branches with the latest repository updates before starting new work.
-* Documentation should be updated regularly to reflect implementation and testing progress.
-* Development will continue with integration, validation, and final project preparation.
+* Continue completing the remaining SQL implementation and validation activities.
+* The finalized SQL structure will be used for database integration.
+* Documentation should be updated to reflect the latest SQL implementation and testing progress.
+* Continue synchronizing all branches before starting new development work.
+* Prepare the project for dashboard integration and final validation.
 
 ### Action Items
+1. Complete the remaining SQL implementation tasks.
+2. Validate the implemented schema and staging tables.
+3. Review attribution and KPI query implementation.
+4. Continue analytics testing and module validation.
+5. Update project documentation.
+6. Prepare for dashboard integration and final testing.
 
-1. Pull the latest repository updates before continuing development.
-2. Verify project modules after synchronization.
-3. Continue assigned development and testing tasks.
-4. Update project documentation with the latest implementation progress.
-5. Validate analytics modules and SQL implementation.
-6. Prepare for integration, dashboard development, and final project testing.
+
+### **Date**: 1 July 2026
+
+### Discussion Points
+* The team reviewed the latest development progress and repository synchronization.
+* SQL validation testing was completed to verify all SQL modules.
+* The following SQL files were successfully validated:
+  * schema.sql
+  * staging_tables.sql
+  * attribution_queries.sql
+  * kpi_queries.sql
+  * dashboard_views.sql
+* Analytics implementation under the src folder was completed and reviewed.
+* The date transformation module (transform_dates.py) implementation was reviewed.
+* Test reporting, code coverage, automated quality checks, and repository maintenance were discussed.
+* Overall project progress, testing status, and upcoming milestones were reviewed.
+
+### Decisions Taken
+* The finalized SQL implementation will be used as the project's official database implementation.
+* Continue maintaining automated SQL validation and testing before integration.
+* Keep documentation synchronized with the latest development activities.
+* Continue improving code quality through automated testing and validation.
+* Prepare all completed modules for the final integration phase.
+
+### Action Items
+1. Verify all SQL modules after validation.
+2. Continue analytics implementation and testing.
+3. Review the completed date transformation module.
+4. Update project documentation with the latest development progress.
+5. Continue repository maintenance and branch synchronization.
+6. Prepare for dashboard integration and final project review.
