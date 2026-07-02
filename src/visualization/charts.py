@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def plot_spend_by_channel(adspend_df):
-    
+   
 
     spend_data = (
         adspend_df.groupby("Channel")["Spend"]
@@ -29,6 +29,7 @@ def plot_spend_by_channel(adspend_df):
 
 def plot_clicks_by_channel(adspend_df):
    
+
     click_data = (
         adspend_df.groupby("Channel")["Clicks"]
         .sum()
@@ -52,7 +53,8 @@ def plot_clicks_by_channel(adspend_df):
 
 
 def plot_revenue_distribution(revenue_df):
-    
+   
+
     plt.figure(figsize=(8, 5))
 
     plt.hist(
@@ -74,7 +76,7 @@ def plot_revenue_distribution(revenue_df):
 
 
 def plot_revenue_category(revenue_df):
-   
+
     category_data = (
         revenue_df["Revenue_Category"]
         .value_counts()
@@ -93,7 +95,9 @@ def plot_revenue_category(revenue_df):
 
 
 def main():
-   
+    """
+    Main execution function.
+    """
 
     adspend_df = pd.read_csv(
         "data/processed/adspend_featured_eng.csv"
