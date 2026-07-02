@@ -1,0 +1,576 @@
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:11:02
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:31:06
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:35:07
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:47:14
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:48:46
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 15:48:50
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:01:57
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:01:58
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.155s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:02:00
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.054s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:02:01
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.334s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:05:09
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:05:09
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.056s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.068s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.082s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.051s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:54
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.090s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.079s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:12:54
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.038s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:12:54
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.119s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.024s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.122s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:20:37
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:20:37
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.085s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.083s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:12
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:12
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.100s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.083s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:36
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.046s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.043s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:40
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.078s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.072s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.073s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.046s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.041s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.094s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.086s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.040s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.050s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.083s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/analytics/test_eda.py::test_eda_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_eda.py::test_dataset_overview_prints_insights
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_eda.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/analytics/test_eda.py::test_run_eda_writes_processed_files
+Outcome: PASSED
+Duration: 0.066s
+

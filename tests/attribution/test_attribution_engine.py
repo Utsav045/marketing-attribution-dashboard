@@ -25,7 +25,9 @@ def test_build_customer_journeys_creates_output(tmp_path, monkeypatch):
         }
     )
 
-    interaction_df.to_csv(processed_dir / "cleaned_customer_interaction_dataset.csv", index=False)
+    interaction_df.to_csv(
+        processed_dir / "cleaned_customer_interaction_dataset.csv", index=False
+    )
     revenue_df.to_csv(processed_dir / "cleaned_revenue_dataset.csv", index=False)
 
     build_customer_journeys()

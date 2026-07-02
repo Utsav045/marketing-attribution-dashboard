@@ -47,11 +47,10 @@ def write_csv(df, file_path):
 
 def get_file_size(file_path):
     """
-    Get file size in MB.
+    Get file size in bytes.
     """
     try:
-        size_bytes = Path(file_path).stat().st_size
-        return round(size_bytes / (1024 * 1024), 2)
+        return Path(file_path).stat().st_size
     except Exception:
         return 0
 

@@ -1,0 +1,264 @@
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:11:03
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:31:07
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:35:08
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:47:15
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:48:47
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 15:48:51
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:01:59
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:02:02
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:12:55
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:12:57
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:20:38
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_run_pipeline.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/pipeline/test_run_pipeline.py::test_run_pipeline_module_imports
+Outcome: PASSED
+Duration: 0.000s
+

@@ -3,9 +3,7 @@ import pandas as pd
 
 def time_decay_attribution():
 
-    journey_df = pd.read_csv(
-        "data/processed/customer_journeys.csv"
-    )
+    journey_df = pd.read_csv("data/processed/customer_journeys.csv")
 
     attribution_records = []
 
@@ -24,46 +22,24 @@ def time_decay_attribution():
 
         total_weight = sum(weights)
 
-        normalized_weights = [
-            w / total_weight
-            for w in weights
-        ]
+        normalized_weights = [w / total_weight for w in weights]
 
-        for channel, weight in zip(
-            channels,
-            normalized_weights
-        ):
+        for channel, weight in zip(channels, normalized_weights):
 
-            attribution_records.append({
+            attribution_records.append(
+                {
+                    "User_id": row["User_id"],
+                    "Channel": channel,
+                    "Weight": round(weight, 4),
+                    "Attributed_Revenue": round(revenue * weight, 2),
+                }
+            )
 
-                "User_id": row["User_id"],
+    result_df = pd.DataFrame(attribution_records)
 
-                "Channel": channel,
+    result_df.to_csv("data/processed/time_decay_attribution.csv", index=False)
 
-                "Weight": round(weight, 4),
-
-                "Attributed_Revenue": round(
-                    revenue * weight,
-                    2
-                )
-
-            })
-
-    result_df = pd.DataFrame(
-        attribution_records
-    )
-
-    result_df.to_csv(
-
-        "data/processed/time_decay_attribution.csv",
-
-        index=False
-
-    )
-
-    print(
-        "Time Decay Attribution Completed Successfully"
-    )
+    print("Time Decay Attribution Completed Successfully")
 
 
 if __name__ == "__main__":

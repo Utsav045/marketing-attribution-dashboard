@@ -3,13 +3,9 @@ import pandas as pd
 
 def calculate_cac():
 
-    adspend_df = pd.read_csv(
-        "data/processed/adspend_featured.csv"
-    )
+    adspend_df = pd.read_csv("data/processed/adspend_featured.csv")
 
-    interaction_df = pd.read_csv(
-        "data/processed/interaction_featured.csv"
-    )
+    interaction_df = pd.read_csv("data/processed/interaction_featured.csv")
 
     total_spend = adspend_df["Spend"].sum()
 

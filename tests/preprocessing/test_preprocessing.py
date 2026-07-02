@@ -1,76 +1,52 @@
-import sys
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(ROOT))
-
 import pandas as pd
 
-sample_df = pd.DataFrame({
-    "Campaign_id": ["C1", "C2"],
-    "Spend": [1000, 2000],
-    "Clicks": [100, 200],
-    "Impressions": [10000, 20000],
-    "Date": ["2025-01-01", "2025-01-02"]
-})
+from src.preprocessing.data_cleaner import clean_data
+from src.preprocessing.feature_engineering import feature_engineering
+from src.preprocessing.handle_missing import handle_missing
+from src.preprocessing.transform_dates import transform_dates
 
-print("\n========== PREPROCESSING TESTS ==========")
+sample_df = pd.DataFrame(
+    {
+        "Campaign_id": ["C1", "C2"],
+        "Spend": [1000, 2000],
+        "Clicks": [100, 200],
+        "Impressions": [10000, 20000],
+        "Date": ["2025-01-01", "2025-01-02"],
+    }
+)
 
-# data_cleaner
 
-try:
+def test_clean_data_import_and_run():
+    cleaned = clean_data(sample_df.copy())
+    assert cleaned is not None
+    assert "Campaign_id" in cleaned.columns
 
-    from src.preprocessing.data_cleaner import *
 
-    print("[PASS] data_cleaner.py")
+def test_handle_missing_import_and_run():
+    handled = handle_missing(sample_df.copy())
+    assert handled is not None
+    assert handled.isnull().sum().sum() == 0
 
-except Exception as e:
 
-    print(f"[FAIL] data_cleaner.py -> {e}")
+def test_transform_dates_import_and_run():
+    transformed = transform_dates(sample_df.copy())
+    assert "Date" in transformed.columns
+    assert transformed.loc[0, "Date"].endswith("2025")
 
-# handle_missing
 
-try:
-
-    from src.preprocessing.handle_missing import *
-
-    print("[PASS] handle_missing.py")
-
-except Exception as e:
-
-    print(f"[FAIL] handle_missing.py -> {e}")
-
-# transform_dates
-
-try:
-
-    from src.preprocessing.transform_dates import *
-
-    print("[PASS] transform_dates.py")
-
-except Exception as e:
-
-    print(f"[FAIL] transform_dates.py -> {e}")
-
-# feature_engineering
-
-try:
-
-    from src.preprocessing.feature_engineering import feature_engineering
-
-    sample_interaction = pd.DataFrame({
-        "Interaction_date": ["2025-01-01", "2025-01-02"]
-    })
-    sample_revenue = pd.DataFrame({
-        "Revenue": [100, 200]
-    })
+def test_feature_engineering_import_and_run():
+    sample_interaction = pd.DataFrame(
+        {"Interaction_date": ["2025-01-01", "2025-01-02"]}
+    )
+    sample_revenue = pd.DataFrame({"Revenue": [100, 200]})
 
     result_adspend, result_interaction, result_revenue = feature_engineering(
-        sample_df, sample_interaction, sample_revenue
+        sample_df.copy(), sample_interaction, sample_revenue
     )
 
-    print("[PASS] feature_engineering.py")
-
-except Exception as e:
-
-    print(f"[FAIL] feature_engineering.py -> {e}")
+    assert result_adspend is not None
+    assert result_interaction is not None
+    assert result_revenue is not None
+    assert "CTR" in result_adspend.columns
+    assert "Interaction_Day" in result_interaction.columns
+    assert "Revenue_Category" in result_revenue.columns
