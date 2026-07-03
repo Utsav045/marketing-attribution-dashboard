@@ -380,3 +380,52 @@
 4. Update project documentation with the latest development progress.
 5. Continue repository maintenance and branch synchronization.
 6. Prepare for dashboard integration and final project review.
+
+Sure! Here are the 2 July 2026 and 3 July 2026 meeting notes in the same format as your 30 June and 1 July notes.
+
+### Date: 2 July 2026
+
+### Discussion Points
+* The team reviewed the latest project progress and repository updates.
+* SQL implementation progress, including schema refinement, KPI query development, and attribution query improvements, was discussed.
+* Analytics implementation under the src folder was reviewed.
+* Development and completion of the chart.py visualization module was discussed.
+* Documentation updates, testing progress, and repository maintenance activities were reviewed.
+* Project integration planning and upcoming testing activities were discussed.
+
+### Decisions Taken
+* Continue SQL implementation and validation activities.
+* Analytics modules should remain synchronized with SQL outputs.
+* Documentation should be updated alongside development progress.
+* Continue regular GitHub commits for completed tasks.
+* Prepare completed modules for integration testing.
+
+### Action Items
+* Continue SQL schema refinement and KPI query development.
+* Review attribution query implementation.
+* Verify chart.py during integration testing.
+* Update project documentation.
+* Continue repository synchronization and progress tracking.
+
+### Date: 3 July 2026
+
+### Discussion Points
+* The team reviewed overall project progress and repository status.
+* SQL validation, optimization, and dashboard preparation activities were discussed.
+* Analytics implementation and visualization integration were reviewed.
+* Testing status, documentation progress, and repository maintenance activities were discussed.
+* Planning for the remaining development milestones and final project completion was reviewed.
+
+### Decisions Taken
+* Continue validating SQL implementation with project datasets.
+* Complete dashboard integration after analytics validation.
+* Maintain updated documentation throughout development.
+* Continue regular repository commits and testing.
+* Prepare for the final project review and submission phase.
+
+### Action Items
+* Continue SQL validation and optimization.
+* Review dashboard integration.
+* Update documentation with recent project progress.
+* Perform testing after each completed module.
+* Prepare for final project review and integration testing.
