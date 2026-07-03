@@ -14,4 +14,6 @@ def test_compute_linear_attribution_groups_revenue_per_channel():
     result = compute_linear_attribution(df)
 
     assert set(result["Channel"]) == {"Email", "Social"}
-    assert result.loc[result["Channel"] == "Email", "Attributed_Revenue"].iloc[0] == 100.0
+    assert (
+        result.loc[result["Channel"] == "Email", "Attributed_Revenue"].iloc[0] == 100.0
+    )

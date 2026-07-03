@@ -3,11 +3,7 @@ import pandas as pd
 
 def position_based_attribution():
 
-    journey_df = pd.read_csv(
-
-        "data/processed/customer_journeys.csv"
-
-    )
+    journey_df = pd.read_csv("data/processed/customer_journeys.csv")
 
     attribution_records = []
 
@@ -35,47 +31,26 @@ def position_based_attribution():
 
             weights = [0.4]
 
-            weights.extend(
-                [middle_weight] * middle
-            )
+            weights.extend([middle_weight] * middle)
 
             weights.append(0.4)
 
-        for channel, weight in zip(
-            channels,
-            weights
-        ):
+        for channel, weight in zip(channels, weights):
 
-            attribution_records.append({
+            attribution_records.append(
+                {
+                    "User_id": row["User_id"],
+                    "Channel": channel,
+                    "Weight": round(weight, 4),
+                    "Attributed_Revenue": round(revenue * weight, 2),
+                }
+            )
 
-                "User_id": row["User_id"],
+    result_df = pd.DataFrame(attribution_records)
 
-                "Channel": channel,
+    result_df.to_csv("data/processed/position_based_attribution.csv", index=False)
 
-                "Weight": round(weight, 4),
-
-                "Attributed_Revenue": round(
-                    revenue * weight,
-                    2
-                )
-
-            })
-
-    result_df = pd.DataFrame(
-        attribution_records
-    )
-
-    result_df.to_csv(
-
-        "data/processed/position_based_attribution.csv",
-
-        index=False
-
-    )
-
-    print(
-        "Position Based Attribution Completed Successfully"
-    )
+    print("Position Based Attribution Completed Successfully")
 
 
 if __name__ == "__main__":

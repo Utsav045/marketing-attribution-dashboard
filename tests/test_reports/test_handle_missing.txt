@@ -1,0 +1,528 @@
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:11:03
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:31:07
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:35:08
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:47:15
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:48:47
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 15:48:51
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:01:59
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.004s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:02:02
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:12:55
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:12:57
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:20:38
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:20:38
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: FAILED
+Duration: 0.024s
+Failure: tmp_path = WindowsPath('C:/Users/utsav/AppData/Local/Temp/pytest-of-utsav/pytest-35/test_run_handle_missing_writes0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000241B35E4080>
+
+    def test_run_handle_missing_writes_cleaned_files(tmp_path, monkeypatch):
+        raw_dir = tmp_path / "data" / "raw"
+        raw_dir.mkdir(parents=True)
+        pd.DataFrame({"Campaign_id": ["A", None], "Spend": [100, None]}).to_csv(
+            raw_dir / "add_spend_dataset.csv", index=False
+        )
+        pd.DataFrame({"User_id": [1], "Campaign_id": ["A"]}).to_csv(
+            raw_dir / "customer_interaction_dataset.csv", index=False
+        )
+        pd.DataFrame({"User_id": [1], "Revenue": ["$200"]}).to_csv(
+            raw_dir / "revenue_dataset.csv", index=False
+        )
+    
+        monkeypatch.chdir(tmp_path)
+        from src.preprocessing.handle_missing import run_handle_missing
+    
+>       run_handle_missing()
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\tests\preprocessing\test_handle_missing.py:31: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\handle_missing.py:18: in run_handle_missing
+    Addspend_df.to_csv("data/processed/cleaned_add_spend_dataset.csv", index=False)
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\generic.py:3988: in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\formats\format.py:1025: in to_csv
+    csv_formatter.save()
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\formats\csvs.py:251: in save
+    with get_handle(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\common.py:797: in get_handle
+    check_parent_directory(str(handle))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = 'data/processed/cleaned_add_spend_dataset.csv'
+
+    def check_parent_directory(path: Path | str) -> None:
+        """
+        Check if parent directory of a file exists, raise OSError if it does not
+    
+        Parameters
+        ----------
+        path: Path or str
+            Path to check parent directory of
+        """
+        parent = Path(path).parent
+        if not parent.is_dir():
+>           raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+E           OSError: Cannot save file into a non-existent directory: 'data\processed'
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\common.py:656: OSError
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:20:40
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:20:40
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: FAILED
+Duration: 0.017s
+Failure: tmp_path = WindowsPath('C:/Users/utsav/AppData/Local/Temp/pytest-of-utsav/pytest-36/test_run_handle_missing_writes0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000241B35B6B40>
+
+    def test_run_handle_missing_writes_cleaned_files(tmp_path, monkeypatch):
+        raw_dir = tmp_path / "data" / "raw"
+        raw_dir.mkdir(parents=True)
+        pd.DataFrame({"Campaign_id": ["A", None], "Spend": [100, None]}).to_csv(
+            raw_dir / "add_spend_dataset.csv", index=False
+        )
+        pd.DataFrame({"User_id": [1], "Campaign_id": ["A"]}).to_csv(
+            raw_dir / "customer_interaction_dataset.csv", index=False
+        )
+        pd.DataFrame({"User_id": [1], "Revenue": ["$200"]}).to_csv(
+            raw_dir / "revenue_dataset.csv", index=False
+        )
+    
+        monkeypatch.chdir(tmp_path)
+        from src.preprocessing.handle_missing import run_handle_missing
+    
+>       run_handle_missing()
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\tests\preprocessing\test_handle_missing.py:31: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\handle_missing.py:18: in run_handle_missing
+    Addspend_df.to_csv("data/processed/cleaned_add_spend_dataset.csv", index=False)
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\generic.py:3988: in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\formats\format.py:1025: in to_csv
+    csv_formatter.save()
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\formats\csvs.py:251: in save
+    with get_handle(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\common.py:797: in get_handle
+    check_parent_directory(str(handle))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = 'data/processed/cleaned_add_spend_dataset.csv'
+
+    def check_parent_directory(path: Path | str) -> None:
+        """
+        Check if parent directory of a file exists, raise OSError if it does not
+    
+        Parameters
+        ----------
+        path: Path or str
+            Path to check parent directory of
+        """
+        parent = Path(path).parent
+        if not parent.is_dir():
+>           raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+E           OSError: Cannot save file into a non-existent directory: 'data\processed'
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\io\common.py:656: OSError
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:21:31
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:21:31
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:22:57
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:22:57
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.021s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.024s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.025s
+

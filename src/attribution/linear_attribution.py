@@ -5,7 +5,6 @@ from typing import Optional
 
 
 def _parse_revenue_value(raw_revenue: object) -> Optional[float]:
-    
 
     if raw_revenue is None:
         return None
@@ -15,12 +14,7 @@ def _parse_revenue_value(raw_revenue: object) -> Optional[float]:
         return None
 
     try:
-        normalized = (
-            raw_str
-            .replace("$", "")
-            .replace(",", "")
-            .strip()
-        )
+        normalized = raw_str.replace("$", "").replace(",", "").strip()
         return float(normalized)
     except (ValueError, TypeError):
         return None
@@ -40,27 +34,16 @@ def compute_linear_attribution(df: pd.DataFrame) -> pd.DataFrame:
 
         for channel in channels:
             attribution_rows.append(
-                {
-                    "Channel": channel,
-                    "Attributed_Revenue": credit_per_channel
-                }
+                {"Channel": channel, "Attributed_Revenue": credit_per_channel}
             )
 
     result_df = pd.DataFrame(attribution_rows)
     if result_df.empty:
         return result_df
 
-    result_df = (
-        result_df
-        .groupby("Channel")["Attributed_Revenue"]
-        .sum()
-        .reset_index()
-    )
+    result_df = result_df.groupby("Channel")["Attributed_Revenue"].sum().reset_index()
 
-    result_df = result_df.sort_values(
-        by="Attributed_Revenue",
-        ascending=False
-    )
+    result_df = result_df.sort_values(by="Attributed_Revenue", ascending=False)
 
     return result_df
 
@@ -69,10 +52,7 @@ def linear_attribution() -> None:
     df = pd.read_csv("data/processed/customer_journeys.csv")
     result_df = compute_linear_attribution(df)
 
-    result_df.to_csv(
-        "data/processed/linear_attribution_results.csv",
-        index=False
-    )
+    result_df.to_csv("data/processed/linear_attribution_results.csv", index=False)
 
     print("\nLinear Attribution Results")
     print(result_df.head())

@@ -32,33 +32,18 @@ def dataset_overview(df, dataset_name):
 def run_eda():
 
     # Load datasets
-    adspend_df = pd.read_csv(
-        "data/processed/adspend_featured.csv"
-    )
+    adspend_df = pd.read_csv("data/processed/adspend_featured.csv")
 
-    interaction_df = pd.read_csv(
-        "data/processed/interaction_featured.csv"
-    )
+    interaction_df = pd.read_csv("data/processed/interaction_featured.csv")
 
-    revenue_df = pd.read_csv(
-        "data/processed/revenue_featured.csv"
-    )
+    revenue_df = pd.read_csv("data/processed/revenue_featured.csv")
 
     # Dataset Overview
-    dataset_overview(
-        adspend_df,
-        "AD SPEND DATASET"
-    )
+    dataset_overview(adspend_df, "AD SPEND DATASET")
 
-    dataset_overview(
-        interaction_df,
-        "INTERACTION DATASET"
-    )
+    dataset_overview(interaction_df, "INTERACTION DATASET")
 
-    dataset_overview(
-        revenue_df,
-        "REVENUE DATASET"
-    )
+    dataset_overview(revenue_df, "REVENUE DATASET")
 
     # Business Insights
     print("\n" + "=" * 60)
@@ -66,46 +51,27 @@ def run_eda():
     print("=" * 60)
 
     if "Spend" in adspend_df.columns:
-        print(
-            f"\nTotal Spend: {adspend_df['Spend'].sum():,.2f}"
-        )
+        print(f"\nTotal Spend: {adspend_df['Spend'].sum():,.2f}")
 
     if "Revenue" in revenue_df.columns:
-        print(
-            f"Total Revenue: {revenue_df['Revenue'].sum():,.2f}"
-        )
+        print(f"Total Revenue: {revenue_df['Revenue'].sum():,.2f}")
 
     if "Channel" in interaction_df.columns:
         print("\nTop Channels:")
-        print(
-            interaction_df["Channel"]
-            .value_counts()
-            .head(10)
-        )
+        print(interaction_df["Channel"].value_counts().head(10))
 
     if "User_id" in interaction_df.columns:
-        print(
-            f"\nUnique Users: {interaction_df['User_id'].nunique()}"
-        )
+        print(f"\nUnique Users: {interaction_df['User_id'].nunique()}")
 
     # =====================================================
     # SAVE FINAL DATASETS
     # =====================================================
 
-    adspend_df.to_csv(
-        "data/processed/eda_adspend.csv",
-        index=False
-    )
+    adspend_df.to_csv("data/processed/eda_adspend.csv", index=False)
 
-    interaction_df.to_csv(
-        "data/processed/eda_interaction.csv",
-        index=False
-    )
+    interaction_df.to_csv("data/processed/eda_interaction.csv", index=False)
 
-    revenue_df.to_csv(
-        "data/processed/eda_revenue.csv",
-        index=False
-    )
+    revenue_df.to_csv("data/processed/eda_revenue.csv", index=False)
 
     print("\nEDA datasets saved successfully!")
 
