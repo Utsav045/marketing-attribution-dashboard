@@ -444,22 +444,22 @@
 ### Discussion Points
 
 * The team reviewed the latest project progress and repository status.
-* Progress of analytics, visualization, testing, and documentation modules was discussed.
-* Integration of completed modules into the overall project workflow was reviewed.
-* Dashboard preparation, final validation, and project documentation updates were discussed.
-* Repository synchronization and branch maintenance were reviewed before continuing development.
+* Testing responsibilities and the upcoming testing workflow were discussed.
+* It was decided that testing activities would begin after the remaining development tasks were completed.
+* Potential error handling and debugging approaches during testing were discussed.
+* Project documentation, repository synchronization, and final integration planning were reviewed.
 
 ### Decisions Taken
 
-* Continue validating completed analytics and visualization modules before final integration.
-* Keep project documentation updated with the latest development progress.
-* Ensure all team members synchronize their branches before making new changes.
-* Continue preparing the project for dashboard integration, final testing, and project completion.
+* Testing will be carried out after the pending development work is completed.
+* Any issues identified during testing will be debugged and resolved before final integration.
+* Project documentation should continue to be updated alongside development and testing activities.
+* The team will continue preparing the project for final validation and dashboard integration.
 
 ### Action Items
 
-1. Verify completed analytics and visualization modules.
-2. Continue updating project documentation.
-3. Synchronize the local repository with the latest changes.
-4. Prepare completed modules for dashboard integration.
-5. Continue final testing, validation, and project review.
+1. Begin testing after the remaining development tasks are completed.
+2. Resolve any issues identified during testing.
+3. Continue updating project documentation.
+4. Synchronize the repository with the latest changes.
+5. Prepare the project for final validation and integration.
