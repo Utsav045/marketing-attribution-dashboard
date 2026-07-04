@@ -11,19 +11,22 @@ GROUP BY channel;
 
 CREATE OR REPLACE VIEW vw_conversion_summary AS
 SELECT
-    user_id,
+    customer_id,
     COUNT(*) AS conversions,
     SUM(revenue) AS total_revenue
 FROM revenue_conversions
-GROUP BY user_id;
+GROUP BY customer_id;
 
 CREATE OR REPLACE VIEW vw_campaign_roi AS
 SELECT
     a.campaign_id,
     SUM(a.spend) AS total_spend,
     COALESCE(SUM(r.revenue), 0) AS total_revenue,
-    CASE WHEN SUM(a.spend) = 0 THEN NULL ELSE COALESCE(SUM(r.revenue), 0) / SUM(a.spend) END AS roas
+    CASE
+        WHEN SUM(a.spend) = 0 THEN NULL
+        ELSE ROUND(COALESCE(SUM(r.revenue), 0) / SUM(a.spend), 2)
+    END AS roas
 FROM ad_spend_performance a
 LEFT JOIN revenue_conversions r
-    ON r.user_id = a.campaign_id
+    ON r.campaign_id = a.campaign_id
 GROUP BY a.campaign_id;
