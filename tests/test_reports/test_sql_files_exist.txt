@@ -327,3 +327,51 @@ Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not
 Outcome: PASSED
 Duration: 0.001s
 
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 17:19:04
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-01 17:19:08
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_sql_files_exist.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/sql_validation/test_sql_files_exist.py::test_sql_files_exist_and_not_empty
+Outcome: PASSED
+Duration: 0.002s
+

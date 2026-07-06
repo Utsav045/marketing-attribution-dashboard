@@ -1,0 +1,36 @@
+================================================================================
+Test Report: test_runner.py
+Run started: 2026-07-06 22:09:47
+================================================================================
+Test: tests/runner/test_runner.py::test_discovery_finds_at_least_one_file
+Outcome: PASSED
+Duration: 0.007s
+
+Test: tests/runner/test_runner.py::test_discovery_includes_this_file
+Outcome: PASSED
+Duration: 0.006s
+
+Test: tests/runner/test_runner.py::test_mapper_produces_correct_count
+Outcome: PASSED
+Duration: 0.008s
+
+Test: tests/runner/test_runner.py::test_execution_result_dataclass_defaults
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/runner/test_runner.py::test_write_report_creates_file
+Outcome: PASSED
+Duration: 0.016s
+
+Test: tests/runner/test_runner.py::test_write_report_fail_shows_fail_verdict
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/runner/test_runner.py::test_write_report_all_pass_shows_pass_verdict
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/runner/test_runner.py::test_run_single_test_file_via_execution_handler
+Outcome: PASSED
+Duration: 1.007s
+
