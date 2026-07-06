@@ -31,7 +31,7 @@ addopts = "-q"
 [tool.black]
 target-version = ["py312"]
 include = '\.pyi?$'
-exclude = '(/\.|\.venv|\.git|__pycache__|notebooks)'
+exclude = '(/\. | \.venv|\.git|__pycache__|notebooks)'
 
 [tool.ruff]
 exclude = [".git", "__pycache__", "node_modules", "build", ".venv", "notebooks"]
