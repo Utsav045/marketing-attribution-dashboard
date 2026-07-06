@@ -1,0 +1,469 @@
+================================================================================
+Test Report: test_pipeline.py
+Run started: 2026-07-06 22:09:44
+================================================================================
+Test: tests/pipeline/test_pipeline.py::test_import_orchestrator
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/pipeline/test_pipeline.py::test_import_run_pipeline
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_pipeline.py
+Run started: 2026-07-06 22:09:45
+================================================================================
+Test: tests/pipeline/test_pipeline.py::test_run_pipeline_returns_three_dataframes
+Outcome: FAILED
+Duration: 0.103s
+Failure: self = Index(['User_id', 'Campaign_id', 'Channel', 'Timestamp', 'Conversion'], dtype='str')
+key = 'Interaction_date'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+            The key to check its location if it is present in the index.
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+            Integer location, slice or boolean mask.
+    
+        See Also
+        --------
+        Index.get_slice_bound : Calculate slice bound that corresponds to
+            given label.
+        Index.get_indexer : Computes indexer and mask for new index given
+            the current index.
+        Index.get_non_unique : Returns indexer and masks for new index given
+            the current index.
+        Index.get_indexer_for : Returns an indexer even when non-unique.
+    
+        Examples
+        --------
+        >>> unique_index = pd.Index(list("abc"))
+        >>> unique_index.get_loc("b")
+        1
+    
+        >>> monotonic_index = pd.Index(list("abbc"))
+        >>> monotonic_index.get_loc("b")
+        slice(1, 3, None)
+    
+        >>> non_monotonic_index = pd.Index(list("abcb"))
+        >>> non_monotonic_index.get_loc("b")
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+>           return self._engine.get_loc(casted_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\indexes\base.py:3641: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pandas/_libs/index.pyx:168: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/index.pyx:197: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/hashtable_class_helper.pxi:7668: in pandas._libs.hashtable.PyObjectHashTable.get_item
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+>   ???
+E   KeyError: 'Interaction_date'
+
+pandas/_libs/hashtable_class_helper.pxi:7676: KeyError
+
+The above exception was the direct cause of the following exception:
+
+tmp_pipeline_dirs = WindowsPath('C:/Users/utsav/AppData/Local/Temp/pytest-of-utsav/pytest-0/test_run_pipeline_returns_thre0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000002BB2BA498B0>
+
+    def test_run_pipeline_returns_three_dataframes(tmp_pipeline_dirs, monkeypatch):
+        """
+        Patch read_csv / chdir so orchestrator uses temp data,
+        then verify it returns (adspend_df, interaction_df, revenue_df).
+        """
+        monkeypatch.chdir(tmp_pipeline_dirs)
+    
+        from src.pipeline.orchestrator import run_pipeline
+    
+>       result = run_pipeline()
+                 ^^^^^^^^^^^^^^
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\tests\pipeline\test_pipeline.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\pipeline\orchestrator.py:60: in run_pipeline
+    adspend_df, interaction_df, revenue_df = feature_engineering(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\feature_engineering.py:149: in feature_engineering
+    interaction_df = create_interaction_features(interaction_df)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\feature_engineering.py:79: in create_interaction_features
+    df["Interaction_date"] = pd.to_datetime(df["Interaction_date"], errors="coerce")
+                                            ^^^^^^^^^^^^^^^^^^^^^^
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\frame.py:4378: in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Index(['User_id', 'Campaign_id', 'Channel', 'Timestamp', 'Conversion'], dtype='str')
+key = 'Interaction_date'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+            The key to check its location if it is present in the index.
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+            Integer location, slice or boolean mask.
+    
+        See Also
+        --------
+        Index.get_slice_bound : Calculate slice bound that corresponds to
+            given label.
+        Index.get_indexer : Computes indexer and mask for new index given
+            the current index.
+        Index.get_non_unique : Returns indexer and masks for new index given
+            the current index.
+        Index.get_indexer_for : Returns an indexer even when non-unique.
+    
+        Examples
+        --------
+        >>> unique_index = pd.Index(list("abc"))
+        >>> unique_index.get_loc("b")
+        1
+    
+        >>> monotonic_index = pd.Index(list("abbc"))
+        >>> monotonic_index.get_loc("b")
+        slice(1, 3, None)
+    
+        >>> non_monotonic_index = pd.Index(list("abcb"))
+        >>> non_monotonic_index.get_loc("b")
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+            return self._engine.get_loc(casted_key)
+        except KeyError as err:
+            if isinstance(casted_key, slice) or (
+                isinstance(casted_key, abc.Iterable)
+                and any(isinstance(x, slice) for x in casted_key)
+            ):
+                raise InvalidIndexError(key) from err
+>           raise KeyError(key) from err
+E           KeyError: 'Interaction_date'
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\indexes\base.py:3648: KeyError
+
+================================================================================
+Test Report: test_pipeline.py
+Run started: 2026-07-06 22:09:45
+================================================================================
+Test: tests/pipeline/test_pipeline.py::test_pipeline_outputs_are_not_empty
+Outcome: FAILED
+Duration: 0.024s
+Failure: self = Index(['User_id', 'Campaign_id', 'Channel', 'Timestamp', 'Conversion'], dtype='str')
+key = 'Interaction_date'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+            The key to check its location if it is present in the index.
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+            Integer location, slice or boolean mask.
+    
+        See Also
+        --------
+        Index.get_slice_bound : Calculate slice bound that corresponds to
+            given label.
+        Index.get_indexer : Computes indexer and mask for new index given
+            the current index.
+        Index.get_non_unique : Returns indexer and masks for new index given
+            the current index.
+        Index.get_indexer_for : Returns an indexer even when non-unique.
+    
+        Examples
+        --------
+        >>> unique_index = pd.Index(list("abc"))
+        >>> unique_index.get_loc("b")
+        1
+    
+        >>> monotonic_index = pd.Index(list("abbc"))
+        >>> monotonic_index.get_loc("b")
+        slice(1, 3, None)
+    
+        >>> non_monotonic_index = pd.Index(list("abcb"))
+        >>> non_monotonic_index.get_loc("b")
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+>           return self._engine.get_loc(casted_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\indexes\base.py:3641: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pandas/_libs/index.pyx:168: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/index.pyx:197: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/hashtable_class_helper.pxi:7668: in pandas._libs.hashtable.PyObjectHashTable.get_item
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+>   ???
+E   KeyError: 'Interaction_date'
+
+pandas/_libs/hashtable_class_helper.pxi:7676: KeyError
+
+The above exception was the direct cause of the following exception:
+
+tmp_pipeline_dirs = WindowsPath('C:/Users/utsav/AppData/Local/Temp/pytest-of-utsav/pytest-0/test_pipeline_outputs_are_not_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000002BB2BA49190>
+
+    def test_pipeline_outputs_are_not_empty(tmp_pipeline_dirs, monkeypatch):
+        """Processed DataFrames must have at least one row."""
+        monkeypatch.chdir(tmp_pipeline_dirs)
+    
+        from src.pipeline.orchestrator import run_pipeline
+    
+>       adspend_df, interaction_df, revenue_df = run_pipeline()
+                                                 ^^^^^^^^^^^^^^
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\tests\pipeline\test_pipeline.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\pipeline\orchestrator.py:60: in run_pipeline
+    adspend_df, interaction_df, revenue_df = feature_engineering(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\feature_engineering.py:149: in feature_engineering
+    interaction_df = create_interaction_features(interaction_df)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\feature_engineering.py:79: in create_interaction_features
+    df["Interaction_date"] = pd.to_datetime(df["Interaction_date"], errors="coerce")
+                                            ^^^^^^^^^^^^^^^^^^^^^^
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\frame.py:4378: in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Index(['User_id', 'Campaign_id', 'Channel', 'Timestamp', 'Conversion'], dtype='str')
+key = 'Interaction_date'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+            The key to check its location if it is present in the index.
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+            Integer location, slice or boolean mask.
+    
+        See Also
+        --------
+        Index.get_slice_bound : Calculate slice bound that corresponds to
+            given label.
+        Index.get_indexer : Computes indexer and mask for new index given
+            the current index.
+        Index.get_non_unique : Returns indexer and masks for new index given
+            the current index.
+        Index.get_indexer_for : Returns an indexer even when non-unique.
+    
+        Examples
+        --------
+        >>> unique_index = pd.Index(list("abc"))
+        >>> unique_index.get_loc("b")
+        1
+    
+        >>> monotonic_index = pd.Index(list("abbc"))
+        >>> monotonic_index.get_loc("b")
+        slice(1, 3, None)
+    
+        >>> non_monotonic_index = pd.Index(list("abcb"))
+        >>> non_monotonic_index.get_loc("b")
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+            return self._engine.get_loc(casted_key)
+        except KeyError as err:
+            if isinstance(casted_key, slice) or (
+                isinstance(casted_key, abc.Iterable)
+                and any(isinstance(x, slice) for x in casted_key)
+            ):
+                raise InvalidIndexError(key) from err
+>           raise KeyError(key) from err
+E           KeyError: 'Interaction_date'
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\indexes\base.py:3648: KeyError
+
+================================================================================
+Test Report: test_pipeline.py
+Run started: 2026-07-06 22:09:46
+================================================================================
+Test: tests/pipeline/test_pipeline.py::test_pipeline_saves_processed_csvs
+Outcome: FAILED
+Duration: 0.025s
+Failure: self = Index(['User_id', 'Campaign_id', 'Channel', 'Timestamp', 'Conversion'], dtype='str')
+key = 'Interaction_date'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+            The key to check its location if it is present in the index.
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+            Integer location, slice or boolean mask.
+    
+        See Also
+        --------
+        Index.get_slice_bound : Calculate slice bound that corresponds to
+            given label.
+        Index.get_indexer : Computes indexer and mask for new index given
+            the current index.
+        Index.get_non_unique : Returns indexer and masks for new index given
+            the current index.
+        Index.get_indexer_for : Returns an indexer even when non-unique.
+    
+        Examples
+        --------
+        >>> unique_index = pd.Index(list("abc"))
+        >>> unique_index.get_loc("b")
+        1
+    
+        >>> monotonic_index = pd.Index(list("abbc"))
+        >>> monotonic_index.get_loc("b")
+        slice(1, 3, None)
+    
+        >>> non_monotonic_index = pd.Index(list("abcb"))
+        >>> non_monotonic_index.get_loc("b")
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+>           return self._engine.get_loc(casted_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\indexes\base.py:3641: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pandas/_libs/index.pyx:168: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/index.pyx:197: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/hashtable_class_helper.pxi:7668: in pandas._libs.hashtable.PyObjectHashTable.get_item
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+>   ???
+E   KeyError: 'Interaction_date'
+
+pandas/_libs/hashtable_class_helper.pxi:7676: KeyError
+
+The above exception was the direct cause of the following exception:
+
+tmp_pipeline_dirs = WindowsPath('C:/Users/utsav/AppData/Local/Temp/pytest-of-utsav/pytest-0/test_pipeline_saves_processed_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000002BB2BB19880>
+
+    def test_pipeline_saves_processed_csvs(tmp_pipeline_dirs, monkeypatch):
+        """Orchestrator must write the three processed CSV files."""
+        monkeypatch.chdir(tmp_pipeline_dirs)
+    
+        from src.pipeline.orchestrator import run_pipeline
+>       run_pipeline()
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\tests\pipeline\test_pipeline.py:112: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\pipeline\orchestrator.py:60: in run_pipeline
+    adspend_df, interaction_df, revenue_df = feature_engineering(
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\feature_engineering.py:149: in feature_engineering
+    interaction_df = create_interaction_features(interaction_df)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\src\preprocessing\feature_engineering.py:79: in create_interaction_features
+    df["Interaction_date"] = pd.to_datetime(df["Interaction_date"], errors="coerce")
+                                            ^^^^^^^^^^^^^^^^^^^^^^
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\frame.py:4378: in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Index(['User_id', 'Campaign_id', 'Channel', 'Timestamp', 'Conversion'], dtype='str')
+key = 'Interaction_date'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+            The key to check its location if it is present in the index.
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+            Integer location, slice or boolean mask.
+    
+        See Also
+        --------
+        Index.get_slice_bound : Calculate slice bound that corresponds to
+            given label.
+        Index.get_indexer : Computes indexer and mask for new index given
+            the current index.
+        Index.get_non_unique : Returns indexer and masks for new index given
+            the current index.
+        Index.get_indexer_for : Returns an indexer even when non-unique.
+    
+        Examples
+        --------
+        >>> unique_index = pd.Index(list("abc"))
+        >>> unique_index.get_loc("b")
+        1
+    
+        >>> monotonic_index = pd.Index(list("abbc"))
+        >>> monotonic_index.get_loc("b")
+        slice(1, 3, None)
+    
+        >>> non_monotonic_index = pd.Index(list("abcb"))
+        >>> non_monotonic_index.get_loc("b")
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+            return self._engine.get_loc(casted_key)
+        except KeyError as err:
+            if isinstance(casted_key, slice) or (
+                isinstance(casted_key, abc.Iterable)
+                and any(isinstance(x, slice) for x in casted_key)
+            ):
+                raise InvalidIndexError(key) from err
+>           raise KeyError(key) from err
+E           KeyError: 'Interaction_date'
+
+D:\PROJECTS\Infotact\marketing-attribution-dashboard\.venv\Lib\site-packages\pandas\core\indexes\base.py:3648: KeyError
+

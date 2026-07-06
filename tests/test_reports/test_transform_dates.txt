@@ -534,3 +534,123 @@ Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writ
 Outcome: PASSED
 Duration: 0.021s
 
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_convert_date_formats_date_series
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/preprocessing/test_transform_dates.py::test_transform_dates_formats_date_columns
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writes_files
+Outcome: PASSED
+Duration: 0.036s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_convert_date_formats_date_series
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/preprocessing/test_transform_dates.py::test_transform_dates_formats_date_columns
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writes_files
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:19:04
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_convert_date_formats_date_series
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/preprocessing/test_transform_dates.py::test_transform_dates_formats_date_columns
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:19:04
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writes_files
+Outcome: PASSED
+Duration: 0.080s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_convert_date_formats_date_series
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/preprocessing/test_transform_dates.py::test_transform_dates_formats_date_columns
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writes_files
+Outcome: PASSED
+Duration: 0.093s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-06 22:09:46
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_convert_date_formats_date_series
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/preprocessing/test_transform_dates.py::test_transform_dates_formats_date_columns
+Outcome: PASSED
+Duration: 0.004s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-06 22:09:46
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writes_files
+Outcome: PASSED
+Duration: 0.112s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_convert_date_formats_date_series
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/preprocessing/test_transform_dates.py::test_transform_dates_formats_date_columns
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_transform_dates.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/preprocessing/test_transform_dates.py::test_run_transform_dates_writes_files
+Outcome: PASSED
+Duration: 0.039s
+

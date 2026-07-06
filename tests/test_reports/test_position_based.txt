@@ -262,3 +262,51 @@ Test: tests/attribution/test_position_based.py::test_position_based_attribution_
 Outcome: PASSED
 Duration: 0.008s
 
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 17:19:03
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.036s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-06 22:09:43
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.059s
+
+================================================================================
+Test Report: test_position_based.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/attribution/test_position_based.py::test_position_based_attribution_writes_output
+Outcome: PASSED
+Duration: 0.022s
+

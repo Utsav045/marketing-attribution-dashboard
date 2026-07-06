@@ -262,3 +262,51 @@ Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_o
 Outcome: PASSED
 Duration: 0.030s
 
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.055s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.060s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 17:19:04
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.181s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.153s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-06 22:09:44
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.108s
+
+================================================================================
+Test Report: test_orchestrator.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/pipeline/test_orchestrator.py::test_run_pipeline_creates_processed_outputs
+Outcome: PASSED
+Duration: 0.052s
+

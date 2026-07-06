@@ -2,6 +2,7 @@ from src.ingestion.load_data import load_data
 
 def main():
     print("Marketing Attribution Pipeline Started")
+    print("Initializing components...")
 
     # Step 1
     print("Loading datasets...")

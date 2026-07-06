@@ -526,3 +526,99 @@ Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes
 Outcome: PASSED
 Duration: 0.025s
 
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.047s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:19:04
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:19:04
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.067s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.074s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-06 22:09:46
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-06 22:09:46
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.054s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_handle_missing_replaces_nans_with_unknown
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_handle_missing.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/preprocessing/test_handle_missing.py::test_run_handle_missing_writes_cleaned_files
+Outcome: PASSED
+Duration: 0.027s
+

@@ -1,0 +1,48 @@
+================================================================================
+Test Report: test_analytics.py
+Run started: 2026-07-06 22:09:41
+================================================================================
+Test: tests/analytics/test_analytics.py::test_import_kpi_calculator
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_analytics.py::test_import_roi
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_analytics.py::test_import_roas
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_analytics.py::test_import_cac
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_analytics.py::test_import_eda
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/analytics/test_analytics.py::test_roi_calculation_formula
+Outcome: PASSED
+Duration: 0.016s
+
+Test: tests/analytics/test_analytics.py::test_roas_calculation_formula
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/analytics/test_analytics.py::test_cac_calculation_formula
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_analytics.py::test_spend_totals_are_positive
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_analytics.py::test_revenue_totals_are_positive
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/analytics/test_analytics.py::test_analytics_no_division_by_zero
+Outcome: PASSED
+Duration: 0.001s
+
