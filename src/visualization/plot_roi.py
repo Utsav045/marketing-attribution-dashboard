@@ -3,9 +3,9 @@ ROI Visualization Module
 Multi-Touch Marketing Attribution & ROI Dashboard
 """
 
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 def plot_roi_by_channel(roi_df: pd.DataFrame) -> None:
@@ -24,7 +24,6 @@ def plot_roi_by_channel(roi_df: pd.DataFrame) -> None:
     fig, ax = plt.subplots(figsize=(10, 6))
     bars = ax.bar(labels, values, color=colors, edgecolor="white", linewidth=0.8)
 
-    # Annotate bars
     for bar, val in zip(bars, values):
         ax.text(
             bar.get_x() + bar.get_width() / 2,
@@ -135,6 +134,11 @@ def main() -> None:
         plot_revenue_vs_spend(roi_df)
 
     print("ROI charts generated successfully.")
+
+
+def plot_roi() -> None:
+    """Backward-compatible wrapper for the ROI plotting entry point."""
+    main()
 
 
 if __name__ == "__main__":
