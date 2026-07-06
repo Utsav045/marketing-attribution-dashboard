@@ -7,9 +7,7 @@ def build_customer_journeys():
         "data/processed/cleaned_customer_interaction_dataset.csv"
     )
 
-    revenue_df = pd.read_csv(
-        "data/processed/cleaned_revenue_dataset.csv"
-    )
+    revenue_df = pd.read_csv("data/processed/cleaned_revenue_dataset.csv")
 
     # Clean column names
     interaction_df.columns = interaction_df.columns.str.strip()
@@ -17,26 +15,19 @@ def build_customer_journeys():
 
     # Convert dates
     interaction_df["Interaction_date"] = pd.to_datetime(
-        interaction_df["Interaction_date"],
-        dayfirst=True,
-        errors="coerce"
+        interaction_df["Interaction_date"], dayfirst=True, errors="coerce"
     )
 
     revenue_df["Conversion_date"] = pd.to_datetime(
-        revenue_df["Conversion_date"],
-        dayfirst=True,
-        errors="coerce"
+        revenue_df["Conversion_date"], dayfirst=True, errors="coerce"
     )
 
     # Sort interactions
-    interaction_df = interaction_df.sort_values(
-        by=["User_id", "Interaction_date"]
-    )
+    interaction_df = interaction_df.sort_values(by=["User_id", "Interaction_date"])
 
     # Build Journey (Channel path)
     journey_df = (
-        interaction_df
-        .groupby("User_id")["Channel"]
+        interaction_df.groupby("User_id")["Channel"]
         .apply(lambda x: " > ".join(x))
         .reset_index()
     )
@@ -45,23 +36,18 @@ def build_customer_journeys():
 
     # Add campaign journey
     campaign_journey = (
-        interaction_df
-        .groupby("User_id")["Campaign_id"]
+        interaction_df.groupby("User_id")["Campaign_id"]
         .apply(lambda x: " > ".join(x.astype(str)))
         .reset_index()
     )
 
-    journey_df = journey_df.merge(
-        campaign_journey,
-        on="User_id",
-        how="left"
-    )
+    journey_df = journey_df.merge(campaign_journey, on="User_id", how="left")
 
     # Merge revenue
     journey_df = journey_df.merge(
         revenue_df[["User_id", "Conversion_id", "Revenue", "Conversion_date"]],
         on="User_id",
-        how="left"
+        how="left",
     )
 
     # Journey length

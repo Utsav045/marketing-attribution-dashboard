@@ -1,0 +1,312 @@
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:11:03
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:31:07
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:35:08
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:47:15
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:47:29
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:48:47
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 15:48:51
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:02:02
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:02:05
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:08:57
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:12:57
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:12:57
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:20:40
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:20:40
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:23:43
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:27:02
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:38
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 17:18:56
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-01 17:19:09
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_config.py
+Run started: 2026-07-06 22:09:50
+================================================================================
+Test: tests/utils/test_config.py::test_project_root_exists
+Outcome: PASSED
+Duration: 0.000s
+

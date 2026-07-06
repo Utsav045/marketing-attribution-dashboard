@@ -1,0 +1,312 @@
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:11:02
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.052s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:31:07
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.057s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:35:07
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:47:14
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:48:46
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 15:48:51
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:01:58
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:02:02
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.057s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:12:55
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:20:38
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.009s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.009s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 17:19:03
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.041s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.045s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-06 22:09:43
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.056s
+
+================================================================================
+Test Report: test_first_touch.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/attribution/test_first_touch.py::test_first_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.018s
+

@@ -11,34 +11,21 @@ CHANNELS = [
     "LinkedIn",
     "Email",
     "YouTube",
-    "Twitter"
+    "Twitter",
 ]
 
 # KPI Names
-KPIS = [
-    "CTR",
-    "CPC",
-    "CPM",
-    "ROI",
-    "ROAS",
-    "CAC",
-    "Revenue",
-    "Spend"
-]
+KPIS = ["CTR", "CPC", "CPM", "ROI", "ROAS", "CAC", "Revenue", "Spend"]
 
 # Attribution Models
-ATTRIBUTION_MODELS = [
-    "First Touch",
-    "Last Touch",
-    "Linear"
-]
+ATTRIBUTION_MODELS = ["First Touch", "Last Touch", "Linear"]
 
 # Report Names
 REPORTS = {
     "EDA": "eda_report.csv",
     "FEATURED_DATASET": "featured_dataset.csv",
     "MASTER_DATASET": "master_dataset.csv",
-    "ATTRIBUTION_RESULTS": "attribution_results.csv"
+    "ATTRIBUTION_RESULTS": "attribution_results.csv",
 }
 
 # Default Values
@@ -51,14 +38,8 @@ DASHBOARD_PAGES = [
     "Campaign Analysis",
     "Channel Analysis",
     "Attribution Analysis",
-    "Customer Journey Analysis"
+    "Customer Journey Analysis",
 ]
 
 # Logging Levels
-LOG_LEVELS = [
-    "DEBUG",
-    "INFO",
-    "WARNING",
-    "ERROR",
-    "CRITICAL"
-]
+LOG_LEVELS = ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"]

@@ -1,49 +1,32 @@
-import sys
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(ROOT))
-
 import pandas as pd
 
-print("\n========== UTILS TESTS ==========")
+from src.utils.config import DATA_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
+from src.utils.constants import ATTRIBUTION_MODELS, CHANNELS, KPIS
+from src.utils.file_manager import create_directory
+from src.utils.helpers import check_missing_values, get_dataset_info
 
-try:
-    from src.utils.config import *
-    print("[PASS] config.py")
-except Exception as e:
-    print(f"[FAIL] config.py -> {e}")
 
-try:
-    from src.utils.constants import *
-    print("[PASS] constants.py")
-except Exception as e:
-    print(f"[FAIL] constants.py -> {e}")
+def test_config_imports():
+    assert DATA_DIR.name == "data"
+    assert RAW_DATA_DIR.name == "raw"
+    assert PROCESSED_DATA_DIR.name == "processed"
 
-try:
-    from src.utils.helpers import *
-    
-    sample_df = pd.DataFrame({
-        "A": [1, 2, None],
-        "B": [4, 5, 6]
-    })
 
-    get_dataset_info(sample_df)
-    check_missing_values(sample_df)
+def test_constants_imports():
+    assert "Google Ads" in CHANNELS
+    assert "ROI" in KPIS
+    assert "First Touch" in ATTRIBUTION_MODELS
 
-    print("[PASS] helpers.py")
 
-except Exception as e:
-    print(f"[FAIL] helpers.py -> {e}")
+def test_helpers_functions():
+    df = pd.DataFrame({"A": [1, 2, None], "B": [4, 5, 6]})
+    assert get_dataset_info(df) is None
+    missing = check_missing_values(df)
+    assert missing["A"] == 1
 
-try:
-    from src.utils.file_manager import *
 
-    test_dir = ROOT / "temp_test"
-
-    create_directory(test_dir)
-
-    print("[PASS] file_manager.py")
-
-except Exception as e:
-    print(f"[FAIL] file_manager.py -> {e}")
+def test_file_manager_create_directory(tmp_path):
+    target_dir = tmp_path / "test_dir"
+    create_directory(target_dir)
+    assert target_dir.exists()
+    assert target_dir.is_dir()

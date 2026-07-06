@@ -1,0 +1,936 @@
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:11:02
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.181s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:11:02
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.079s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:11:02
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:31:06
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.150s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:31:06
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.079s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:31:06
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.031s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:35:07
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.065s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:35:07
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.033s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:35:07
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:47:14
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.044s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:47:14
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:47:14
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.039s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:48:46
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:48:46
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:48:46
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:48:50
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.044s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:48:50
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.036s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 15:48:50
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:01:58
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:01:58
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:01:58
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:02:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.050s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:02:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.082s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:02:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.035s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.004s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.022s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.022s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:12:54
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.035s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:12:54
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:12:54
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.031s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.014s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:20:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.034s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:20:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.039s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:20:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:12
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:12
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:12
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.024s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.004s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.009s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.022s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:04
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:36
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.012s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:40
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.007s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:53
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:53
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:53
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.008s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.025s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.020s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:18:59
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.098s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:19:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.136s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:19:00
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.029s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.066s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.065s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.021s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-06 22:09:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.070s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-06 22:09:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.045s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-06 22:09:42
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.033s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_with_sample_data
+Outcome: PASSED
+Duration: 0.039s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/analytics/test_roas.py::test_calculate_roas_handles_zero_spend
+Outcome: PASSED
+Duration: 0.039s
+
+================================================================================
+Test Report: test_roas.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/analytics/test_roas.py::test_save_roas_results_writes_csv
+Outcome: PASSED
+Duration: 0.010s
+

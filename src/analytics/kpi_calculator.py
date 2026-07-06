@@ -4,13 +4,9 @@ import pandas as pd
 def calculate_kpis():
 
     # Load Featured Datasets
-    adspend_df = pd.read_csv(
-        "data/processed/adspend_featured.csv"
-    )
+    adspend_df = pd.read_csv("data/processed/adspend_featured.csv")
 
-    revenue_df = pd.read_csv(
-        "data/processed/revenue_featured.csv"
-    )
+    revenue_df = pd.read_csv("data/processed/revenue_featured.csv")
 
     # ==========================
     # DEBUG (Verify Data)
@@ -37,40 +33,20 @@ def calculate_kpis():
     # KPI CALCULATIONS
     # ==========================
 
-    ctr = (
-        total_clicks / total_impressions * 100
-        if total_impressions > 0 else 0
-    )
+    ctr = total_clicks / total_impressions * 100 if total_impressions > 0 else 0
 
-    cpc = (
-        total_spend / total_clicks
-        if total_clicks > 0 else 0
-    )
+    cpc = total_spend / total_clicks if total_clicks > 0 else 0
 
-    cpm = (
-        total_spend / total_impressions * 1000
-        if total_impressions > 0 else 0
-    )
+    cpm = total_spend / total_impressions * 1000 if total_impressions > 0 else 0
 
-    roi = (
-        (total_revenue - total_spend)
-        / total_spend * 100
-        if total_spend > 0 else 0
-    )
+    roi = (total_revenue - total_spend) / total_spend * 100 if total_spend > 0 else 0
 
-    roas = (
-        total_revenue / total_spend
-        if total_spend > 0 else 0
-    )
+    roas = total_revenue / total_spend if total_spend > 0 else 0
 
-    conversion_rate = (
-        total_conversions / total_clicks * 100
-        if total_clicks > 0 else 0
-    )
+    conversion_rate = total_conversions / total_clicks * 100 if total_clicks > 0 else 0
 
     avg_revenue_per_conversion = (
-        total_revenue / total_conversions
-        if total_conversions > 0 else 0
+        total_revenue / total_conversions if total_conversions > 0 else 0
     )
 
     kpis = {
@@ -85,9 +61,7 @@ def calculate_kpis():
         "ROI (%)": round(roi, 2),
         "ROAS": round(roas, 2),
         "Conversion Rate (%)": round(conversion_rate, 2),
-        "Avg Revenue Per Conversion": round(
-            avg_revenue_per_conversion, 2
-        )
+        "Avg Revenue Per Conversion": round(avg_revenue_per_conversion, 2),
     }
 
     return kpis
@@ -97,15 +71,9 @@ def save_kpis():
 
     kpis = calculate_kpis()
 
-    kpi_df = pd.DataFrame(
-        list(kpis.items()),
-        columns=["KPI", "Value"]
-    )
+    kpi_df = pd.DataFrame(list(kpis.items()), columns=["KPI", "Value"])
 
-    kpi_df.to_csv(
-        "data/processed/kpi_summary.csv",
-        index=False
-    )
+    kpi_df.to_csv("data/processed/kpi_summary.csv", index=False)
 
     print("\n========== MARKETING KPI SUMMARY ==========\n")
 

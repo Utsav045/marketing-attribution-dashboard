@@ -1,0 +1,312 @@
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:11:02
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.163s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:31:07
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.158s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:35:07
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.043s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:47:14
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.056s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:47:28
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.035s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:48:46
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.052s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 15:48:51
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.070s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:01:58
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.036s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:02:01
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.112s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:05:10
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.026s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:05:11
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:08:51
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:08:52
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.024s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:08:55
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.029s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:08:56
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.029s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:12:55
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.055s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:12:56
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.058s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:20:38
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.043s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:20:39
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.036s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:23:13
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.049s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:23:14
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.049s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:23:37
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.022s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:23:38
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.023s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:23:41
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:23:42
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.031s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.037s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:27:01
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:27:05
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.072s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:27:06
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:30:37
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.022s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:30:41
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.030s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 16:30:42
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.029s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.035s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.042s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 17:19:03
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.141s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.109s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-06 22:09:43
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.121s
+
+================================================================================
+Test Report: test_attribution_engine.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/attribution/test_attribution_engine.py::test_build_customer_journeys_creates_output
+Outcome: PASSED
+Duration: 0.049s
+

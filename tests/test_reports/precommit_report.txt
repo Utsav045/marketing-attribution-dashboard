@@ -1,0 +1,268 @@
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 01-07-2026 04:23 PM
+  Execution Time  : 8s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [PASS]
+  Tests          : [PASS]
+  Coverage       : [PASS (88.0%)]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Lint, Tests, Coverage, Security
+  Failed Checks   : None
+  Tests Run       : 1  |  Passed: 1  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 100.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : PASS
+
+  +-- Failure Details -----------------------------------+
+  [OK] No blocking failures detected.
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [OK]  YOU ARE ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 01-07-2026 04:26 PM
+  Execution Time  : 8s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [PASS]
+  Tests          : [PASS]
+  Coverage       : [PASS (88.0%)]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Lint, Tests, Coverage, Security
+  Failed Checks   : None
+  Tests Run       : 1  |  Passed: 1  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 100.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : PASS
+
+  +-- Failure Details -----------------------------------+
+  [OK] No blocking failures detected.
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [OK]  YOU ARE ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 01-07-2026 04:30 PM
+  Execution Time  : 8s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [PASS]
+  Tests          : [PASS]
+  Coverage       : [PASS (88.0%)]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Lint, Tests, Coverage, Security
+  Failed Checks   : None
+  Tests Run       : 1  |  Passed: 1  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 100.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : PASS
+
+  +-- Failure Details -----------------------------------+
+  [OK] No blocking failures detected.
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [OK]  YOU ARE ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 01-07-2026 05:18 PM
+  Execution Time  : 22s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [PASS]
+  Tests          : [PASS]
+  Coverage       : [PASS (88.0%)]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Lint, Tests, Coverage, Security
+  Failed Checks   : None
+  Tests Run       : 1  |  Passed: 1  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 100.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : PASS
+
+  +-- Failure Details -----------------------------------+
+  [OK] No blocking failures detected.
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [OK]  YOU ARE ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 06-07-2026 10:09 PM
+  Execution Time  : 14s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [FAIL]
+  Tests          : [FAIL]
+  Coverage       : [N/A]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Security
+  Failed Checks   : Lint, Tests
+  Tests Run       : 0  |  Passed: 0  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 15.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : FAIL
+
+  +-- Failure Details -----------------------------------+
+  [X] LINT FAILED
+      F401 [*] `unittest.mock.patch` imported but unused   --> tests\pipeline\test_pipeline.py:11:27    |
+
+  [X] TESTS FAILED
+      Passed : 0 / 0
+      Failed : 0 / 0
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [FAIL]  YOU ARE NOT ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 06-07-2026 10:12 PM
+  Execution Time  : 4s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [FAIL]
+  Tests          : [FAIL]
+  Coverage       : [N/A]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Security
+  Failed Checks   : Lint, Tests
+  Tests Run       : 0  |  Passed: 0  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 15.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : FAIL
+
+  +-- Failure Details -----------------------------------+
+  [X] LINT FAILED
+      F821 Undefined name `Path`   --> tests\pipeline\test_pipeline.py:29:33    |
+
+  [X] TESTS FAILED
+      Passed : 0 / 0
+      Failed : 0 / 0
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [FAIL]  YOU ARE NOT ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 06-07-2026 10:13 PM
+  Execution Time  : 4s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [FAIL]
+  Tests          : [FAIL]
+  Coverage       : [N/A]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Security
+  Failed Checks   : Lint, Tests
+  Tests Run       : 0  |  Passed: 0  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 15.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : FAIL
+
+  +-- Failure Details -----------------------------------+
+  [X] LINT FAILED
+      F401 [*] `.execution_handler.run_pytest` imported but unused   --> tests\runner\executer.py:18:32    |
+
+  [X] TESTS FAILED
+      Passed : 0 / 0
+      Failed : 0 / 0
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [FAIL]  YOU ARE NOT ALLOWED TO COMMIT
+============================================================
+  PRE-COMMIT QUALITY REPORT
+============================================================
+
+  Date            : 06-07-2026 10:18 PM
+  Execution Time  : 4s
+
+  -- Check Results ----------------------------------------
+  Compile        : [PASS]
+  Lint           : [FAIL]
+  Tests          : [FAIL]
+  Coverage       : [N/A]
+  Security       : [PASS]
+
+  -- Test Summary -----------------------------------------
+  Passed Checks   : Compile, Security
+  Failed Checks   : Lint, Tests
+  Tests Run       : 0  |  Passed: 0  |  Failed: 0
+
+  -- Score ------------------------------------------------
+  Quality Score   : 15.0 / 100
+  Threshold       : 80 / 100
+  Overall Status  : FAIL
+
+  +-- Failure Details -----------------------------------+
+  [X] LINT FAILED
+      F821 Undefined name `datetime`   --> tests\runner\reporter.py:46:11    |
+
+  [X] TESTS FAILED
+      Passed : 0 / 0
+      Failed : 0 / 0
+
+  +-----------------------------------------------------+
+
+  -- Verdict ----------------------------------------------
+  [FAIL]  YOU ARE NOT ALLOWED TO COMMIT
