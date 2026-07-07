@@ -1,37 +1,39 @@
--- First Touch
-SELECT
-    cookie,
-    MIN(timestamp) AS first_touch_time,
-    interaction,
-    revenue
-FROM customer_journeys
-WHERE conversion = 1
-GROUP BY cookie, interaction, revenue;
+-- Attribution queries for customer journey analysis
 
--- Last Touch
-SELECT
-    cookie,
-    MAX(timestamp) AS last_touch_time,
-    interaction,
-    revenue
-FROM customer_journeys
-WHERE conversion = 1
-GROUP BY cookie, interaction, revenue;
-
--- Linear Attribution
-WITH journey_count AS (
+-- First-touch attribution by customer
+WITH ranked_journeys AS (
     SELECT
-        cookie,
-        COUNT(*) AS n_touchpoints,
-        MAX(revenue) AS total_revenue
+        customer_id,
+        campaign_id,
+        touch_order,
+        ROW_NUMBER() OVER (
+            PARTITION BY customer_id
+            ORDER BY touch_order, interaction_date
+        ) AS rn
     FROM customer_journeys
-    WHERE conversion = 1
-    GROUP BY cookie
+    WHERE converted = TRUE
 )
 SELECT
-    cj.cookie,
-    cj.interaction,
-    jc.total_revenue / jc.n_touchpoints AS attributed_revenue
-FROM customer_journeys cj
-JOIN journey_count jc
-ON cj.cookie = jc.cookie;
+    customer_id,
+    campaign_id AS first_touch_campaign
+FROM ranked_journeys
+WHERE rn = 1;
+
+-- Last-touch attribution by customer
+WITH ranked_journeys AS (
+    SELECT
+        customer_id,
+        campaign_id,
+        touch_order,
+        ROW_NUMBER() OVER (
+            PARTITION BY customer_id
+            ORDER BY touch_order DESC, interaction_date DESC
+        ) AS rn
+    FROM customer_journeys
+    WHERE converted = TRUE
+)
+SELECT
+    customer_id,
+    campaign_id AS last_touch_campaign
+FROM ranked_journeys
+WHERE rn = 1;

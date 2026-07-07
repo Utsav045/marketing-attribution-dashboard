@@ -25,23 +25,25 @@
 
 ### Palak
 
-**Primary Responsibilities**
+## Primary Responsibilities
 
 * Project documentation and documentation management
 * Meeting notes preparation and maintenance
-* Database documentation (schema, KPI definitions, and SQL documentation)
+* Database documentation (Schema, KPI Definitions, and technical documentation)
 * Dataset research and documentation
 * Project progress tracking and reporting
 * GitHub documentation updates and repository maintenance
 * Testing support and result validation
 * Final report preparation and presentation support
 
-**Development Support**
+## Documentation & Project Support
 
-* Assistance in Python development (Data Loading and Data Cleaning modules)
-* Support for SQL database implementation and documentation
+* Documentation review and formatting
+* Project progress monitoring and status updates
 * Coordination of documentation with ongoing project development
-* Review and update of project deliverables before milestones
+* Validation of project documentation before milestones
+* Support during project testing and final project review
+* Assistance in preparing project deliverables and presentation materials
 
 ## Notes
 
