@@ -1154,3 +1154,195 @@ Test: tests/test_project_coverage.py::test_calculate_roas_and_save_results
 Outcome: PASSED
 Duration: 0.023s
 
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/test_project_coverage.py::test_constants_have_expected_values
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/test_project_coverage.py::test_helpers_io_and_metrics
+Outcome: PASSED
+Duration: 0.013s
+
+Test: tests/test_project_coverage.py::test_file_manager_roundtrip_and_filesystem
+Outcome: PASSED
+Duration: 0.009s
+
+Test: tests/test_project_coverage.py::test_clean_data_converts_currency
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/test_project_coverage.py::test_handle_missing_replaces_none
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/test_project_coverage.py::test_transform_date_helpers
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/test_project_coverage.py::test_ingestion_data_loader_reads_raw_files
+Outcome: PASSED
+Duration: 0.018s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:18:56
+================================================================================
+Test: tests/test_project_coverage.py::test_eda_run_writes_files
+Outcome: PASSED
+Duration: 0.081s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:18:56
+================================================================================
+Test: tests/test_project_coverage.py::test_kpi_calculator_returns_any_value
+Outcome: PASSED
+Duration: 0.017s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:18:56
+================================================================================
+Test: tests/test_project_coverage.py::test_cac_calculates_value
+Outcome: PASSED
+Duration: 0.055s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:18:56
+================================================================================
+Test: tests/test_project_coverage.py::test_calculate_roas_and_save_results
+Outcome: PASSED
+Duration: 0.031s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:19:08
+================================================================================
+Test: tests/test_project_coverage.py::test_constants_have_expected_values
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/test_project_coverage.py::test_helpers_io_and_metrics
+Outcome: PASSED
+Duration: 0.027s
+
+Test: tests/test_project_coverage.py::test_file_manager_roundtrip_and_filesystem
+Outcome: PASSED
+Duration: 0.022s
+
+Test: tests/test_project_coverage.py::test_clean_data_converts_currency
+Outcome: PASSED
+Duration: 0.017s
+
+Test: tests/test_project_coverage.py::test_handle_missing_replaces_none
+Outcome: PASSED
+Duration: 0.005s
+
+Test: tests/test_project_coverage.py::test_transform_date_helpers
+Outcome: PASSED
+Duration: 0.018s
+
+Test: tests/test_project_coverage.py::test_ingestion_data_loader_reads_raw_files
+Outcome: PASSED
+Duration: 0.053s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:19:09
+================================================================================
+Test: tests/test_project_coverage.py::test_eda_run_writes_files
+Outcome: PASSED
+Duration: 0.378s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:19:09
+================================================================================
+Test: tests/test_project_coverage.py::test_kpi_calculator_returns_any_value
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:19:09
+================================================================================
+Test: tests/test_project_coverage.py::test_cac_calculates_value
+Outcome: PASSED
+Duration: 0.050s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-01 17:19:09
+================================================================================
+Test: tests/test_project_coverage.py::test_calculate_roas_and_save_results
+Outcome: PASSED
+Duration: 0.076s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/test_project_coverage.py::test_constants_have_expected_values
+Outcome: PASSED
+Duration: 0.000s
+
+Test: tests/test_project_coverage.py::test_helpers_io_and_metrics
+Outcome: PASSED
+Duration: 0.032s
+
+Test: tests/test_project_coverage.py::test_file_manager_roundtrip_and_filesystem
+Outcome: PASSED
+Duration: 0.010s
+
+Test: tests/test_project_coverage.py::test_clean_data_converts_currency
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/test_project_coverage.py::test_handle_missing_replaces_none
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/test_project_coverage.py::test_transform_date_helpers
+Outcome: PASSED
+Duration: 0.006s
+
+Test: tests/test_project_coverage.py::test_ingestion_data_loader_reads_raw_files
+Outcome: PASSED
+Duration: 0.032s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/test_project_coverage.py::test_eda_run_writes_files
+Outcome: PASSED
+Duration: 0.204s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/test_project_coverage.py::test_kpi_calculator_returns_any_value
+Outcome: PASSED
+Duration: 0.019s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-06 22:09:50
+================================================================================
+Test: tests/test_project_coverage.py::test_cac_calculates_value
+Outcome: PASSED
+Duration: 0.047s
+
+================================================================================
+Test Report: test_project_coverage.py
+Run started: 2026-07-06 22:09:50
+================================================================================
+Test: tests/test_project_coverage.py::test_calculate_roas_and_save_results
+Outcome: PASSED
+Duration: 0.081s
+

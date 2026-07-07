@@ -102,3 +102,27 @@ Test: tests/attribution/test_attribution.py::test_attribution
 Outcome: PASSED
 Duration: 0.501s
 
+================================================================================
+Test Report: test_attribution.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/attribution/test_attribution.py::test_attribution
+Outcome: PASSED
+Duration: 0.444s
+
+================================================================================
+Test Report: test_attribution.py
+Run started: 2026-07-01 17:19:03
+================================================================================
+Test: tests/attribution/test_attribution.py::test_attribution
+Outcome: PASSED
+Duration: 3.059s
+
+================================================================================
+Test Report: test_attribution.py
+Run started: 2026-07-06 22:09:43
+================================================================================
+Test: tests/attribution/test_attribution.py::test_attribution
+Outcome: PASSED
+Duration: 0.528s
+

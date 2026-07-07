@@ -646,3 +646,147 @@ Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
 Outcome: PASSED
 Duration: 0.013s
 
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:53
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_kpi_calculator_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:53
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_calculate_kpis_returns_expected_values
+Outcome: PASSED
+Duration: 0.024s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:53
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_kpi_calculator_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_calculate_kpis_returns_expected_values
+Outcome: PASSED
+Duration: 0.011s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
+Outcome: PASSED
+Duration: 0.015s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:59
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_kpi_calculator_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:59
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_calculate_kpis_returns_expected_values
+Outcome: PASSED
+Duration: 0.028s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:18:59
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
+Outcome: PASSED
+Duration: 0.047s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_kpi_calculator_module_loads
+Outcome: PASSED
+Duration: 0.001s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_calculate_kpis_returns_expected_values
+Outcome: PASSED
+Duration: 0.033s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-01 17:19:06
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
+Outcome: PASSED
+Duration: 0.038s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-06 22:09:42
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_kpi_calculator_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-06 22:09:42
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_calculate_kpis_returns_expected_values
+Outcome: PASSED
+Duration: 0.064s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-06 22:09:42
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
+Outcome: PASSED
+Duration: 0.021s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_kpi_calculator_module_loads
+Outcome: PASSED
+Duration: 0.000s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_calculate_kpis_returns_expected_values
+Outcome: PASSED
+Duration: 0.016s
+
+================================================================================
+Test Report: test_kpi_calculator.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/analytics/test_kpi_calculator.py::test_save_kpis_writes_csv
+Outcome: PASSED
+Duration: 0.019s
+

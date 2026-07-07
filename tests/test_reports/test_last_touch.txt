@@ -262,3 +262,51 @@ Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_r
 Outcome: PASSED
 Duration: 0.014s
 
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.027s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.024s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 17:19:03
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.051s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.060s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-06 22:09:43
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.047s
+
+================================================================================
+Test Report: test_last_touch.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/attribution/test_last_touch.py::test_last_touch_attribution_writes_results
+Outcome: PASSED
+Duration: 0.023s
+

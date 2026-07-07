@@ -262,3 +262,51 @@ Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_r
 Outcome: PASSED
 Duration: 0.003s
 
+================================================================================
+Test Report: test_linear.py
+Run started: 2026-07-01 17:18:54
+================================================================================
+Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_revenue_per_channel
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_linear.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_revenue_per_channel
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_linear.py
+Run started: 2026-07-01 17:19:03
+================================================================================
+Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_revenue_per_channel
+Outcome: PASSED
+Duration: 0.013s
+
+================================================================================
+Test Report: test_linear.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_revenue_per_channel
+Outcome: PASSED
+Duration: 0.010s
+
+================================================================================
+Test Report: test_linear.py
+Run started: 2026-07-06 22:09:43
+================================================================================
+Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_revenue_per_channel
+Outcome: PASSED
+Duration: 0.006s
+
+================================================================================
+Test Report: test_linear.py
+Run started: 2026-07-06 22:09:48
+================================================================================
+Test: tests/attribution/test_linear.py::test_compute_linear_attribution_groups_revenue_per_channel
+Outcome: PASSED
+Duration: 0.005s
+

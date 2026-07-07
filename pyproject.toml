@@ -35,7 +35,6 @@ exclude = '(/\.|\.venv|\.git|__pycache__|notebooks)'
 
 [tool.ruff]
 exclude = [".git", "__pycache__", "node_modules", "build", ".venv", "notebooks"]
-
 [tool.pyright]
 extraPaths = ["."]
 

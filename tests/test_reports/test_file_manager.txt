@@ -494,3 +494,123 @@ Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
 Outcome: PASSED
 Duration: 0.001s
 
+================================================================================
+Test Report: test_file_manager.py
+Run started: 2026-07-01 17:18:55
+================================================================================
+Test: tests/utils/test_file_manager.py::test_create_directory_creates_path
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/utils/test_file_manager.py::test_write_and_read_csv_roundtrip
+Outcome: PASSED
+Duration: 0.009s
+
+Test: tests/utils/test_file_manager.py::test_read_csv_returns_none_for_missing_file
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
+Outcome: PASSED
+Duration: 0.003s
+
+================================================================================
+Test Report: test_file_manager.py
+Run started: 2026-07-01 17:18:56
+================================================================================
+Test: tests/utils/test_file_manager.py::test_create_directory_creates_path
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/utils/test_file_manager.py::test_write_and_read_csv_roundtrip
+Outcome: PASSED
+Duration: 0.009s
+
+Test: tests/utils/test_file_manager.py::test_read_csv_returns_none_for_missing_file
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
+Outcome: PASSED
+Duration: 0.004s
+
+================================================================================
+Test Report: test_file_manager.py
+Run started: 2026-07-01 17:19:07
+================================================================================
+Test: tests/utils/test_file_manager.py::test_create_directory_creates_path
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/utils/test_file_manager.py::test_write_and_read_csv_roundtrip
+Outcome: PASSED
+Duration: 0.020s
+
+Test: tests/utils/test_file_manager.py::test_read_csv_returns_none_for_missing_file
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
+Outcome: PASSED
+Duration: 0.005s
+
+================================================================================
+Test Report: test_file_manager.py
+Run started: 2026-07-01 17:19:09
+================================================================================
+Test: tests/utils/test_file_manager.py::test_create_directory_creates_path
+Outcome: PASSED
+Duration: 0.004s
+
+Test: tests/utils/test_file_manager.py::test_write_and_read_csv_roundtrip
+Outcome: PASSED
+Duration: 0.021s
+
+Test: tests/utils/test_file_manager.py::test_read_csv_returns_none_for_missing_file
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
+Outcome: PASSED
+Duration: 0.004s
+
+================================================================================
+Test Report: test_file_manager.py
+Run started: 2026-07-06 22:09:49
+================================================================================
+Test: tests/utils/test_file_manager.py::test_create_directory_creates_path
+Outcome: PASSED
+Duration: 0.002s
+
+Test: tests/utils/test_file_manager.py::test_write_and_read_csv_roundtrip
+Outcome: PASSED
+Duration: 0.039s
+
+Test: tests/utils/test_file_manager.py::test_read_csv_returns_none_for_missing_file
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
+Outcome: PASSED
+Duration: 0.002s
+
+================================================================================
+Test Report: test_file_manager.py
+Run started: 2026-07-06 22:09:50
+================================================================================
+Test: tests/utils/test_file_manager.py::test_create_directory_creates_path
+Outcome: PASSED
+Duration: 0.003s
+
+Test: tests/utils/test_file_manager.py::test_write_and_read_csv_roundtrip
+Outcome: PASSED
+Duration: 0.011s
+
+Test: tests/utils/test_file_manager.py::test_read_csv_returns_none_for_missing_file
+Outcome: PASSED
+Duration: 0.001s
+
+Test: tests/utils/test_file_manager.py::test_delete_file_removes_existing_file
+Outcome: PASSED
+Duration: 0.003s
+
